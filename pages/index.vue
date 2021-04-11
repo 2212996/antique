@@ -484,7 +484,7 @@
         </div>
         <div id="SP_contactCont">
           <div id="SP_contactContMail">
-            メールアドレス：未定
+            メールアドレス：pgantique108icloud.com
           </div>
           <div id="SP_contactContQR">
 
