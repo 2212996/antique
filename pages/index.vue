@@ -401,14 +401,15 @@
       <div id="SP_gallery">
         <div id="SP_galleryTitle">
           <div id="SP_galleryTitleSub">
-            ANTIQUEによる5つのサポート
+            ギャラリー
           </div>
           <div id="SP_galleryTitleMain">
-            SUPPORTS
+            GALLERY
           </div>
           <div id="SP_galleryTitleSent">
-            ANTIQUEならではの高品質な内容で<br>
-            お客様のトレーニングを効率よくサポートいたします
+            当ジムは，ウッドカラーを基調とした落ち着いた雰囲気となっております<br>
+            穏やかな空間でトレーニングをしていただけます<br>
+            画像は日々更新中です
           </div>
         </div>
         <div id="SP_galleryPic">
