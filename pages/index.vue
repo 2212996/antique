@@ -1986,7 +1986,7 @@ a {
   margin: 2.5vw;
 }
 #SP_topHeadTitles{
-  font-family: serif;
+  font-family: 'Noto Serif JP', serif;
   background:url(./assets/mark.png);
   background-size:cover;
   width:30vw;
@@ -2020,7 +2020,7 @@ a {
   letter-spacing: 0.25vw;
 }
 #SP_topPicSent2{
-  font-family: serif;
+  font-family: 'Noto Serif JP', serif;
   font-size: 0.5rem;
   line-height: 5vw;
   color: #fff;
@@ -2034,7 +2034,7 @@ a {
   color:#fff;
   padding-left: 4vw;
   font-size: 0.5rem;
-  font-family: serif;
+  font-family: 'Noto Serif JP', serif;
   padding-top: 5vw;
   padding-bottom: 5vw;
 }
@@ -2052,14 +2052,14 @@ a {
   margin-top:12.5vw;
 }
 #SP_conseptTitleSent{
-  font-family: serif;
+  font-family: 'Noto Serif JP', serif;
   font-size: 1.75rem;
   color:#dfbb30;
   text-align: center;
   margin-top: -5vw;
 }
 #SP_conseptTitleSent2{
-  font-family: serif;
+  font-family: 'Noto Serif JP', serif;
   font-size: 0.5rem;
   color:#fff;
   text-align: center;
@@ -2077,7 +2077,7 @@ a {
 #SP_trainer{
   margin-top:10vw;
   color:#fff;
-  font-family: serif;
+  font-family: 'Noto Serif JP', serif;
 }
 #SP_trainerTitle{
   margin-left: 10vw;
@@ -2127,7 +2127,7 @@ a {
   padding-bottom:10vw;
 }
 #SP_aboutusTitle{
-  font-family: serif;
+  font-family: 'Noto Serif JP', serif;
   margin-top: 10vw;
   margin-bottom: 10vw;
   color:#fff;
@@ -2141,7 +2141,7 @@ a {
 }
 #SP_aboutusCont{
   color:#fff;
-  font-family: serif;
+  font-family: 'Noto Serif JP', serif;
 }
 #SP_aboutusCont1{
 
@@ -2246,7 +2246,7 @@ a {
 #SP_supportsTitle{
   background-color: #142031;
   color:#fff;
-  font-family: serif;
+  font-family: 'Noto Serif JP', serif;
   text-align: center;
   padding-top: 7vw;
   padding-bottom: 7vw;
@@ -2328,13 +2328,13 @@ a {
   color:#B59514;
 }
 #SP_supportsContSentMain{
-  font-family: serif;
+  font-family: 'Noto Serif JP', serif;
   font-size: 0.8rem;
   margin-top:2.5vw;
   margin-bottom: 2.5vw;
 }
 #SP_supportsContSent2{
-  font-family: serif;
+  font-family: 'Noto Serif JP', serif;
   font-size: 0.5rem;
   line-height: 5.5vw;
   letter-spacing: 0.15vw;
@@ -2346,7 +2346,7 @@ a {
   background-position: 50% 40%;
   color:#fff;
   text-align: center;
-  font-family: serif;
+  font-family: 'Noto Serif JP', serif;
   padding-top: 5vw;
   padding-bottom: 5vw;
   margin-top: 20vw;
@@ -2364,7 +2364,7 @@ a {
   margin-right: auto;
   text-align: center;
   color:#fff;
-  font-family: serif;
+  font-family: 'Noto Serif JP', serif;
   display: flex;
   padding-top: 10vw;
 }
@@ -2384,7 +2384,7 @@ a {
 #SP_priceContAnt{
   margin-top: 10vw;
   color:#fff;
-  font-family: serif;
+  font-family: 'Noto Serif JP', serif;
   text-align: center;
 }
 #SP_priceContAntTitle{
@@ -2436,7 +2436,7 @@ a {
 #SP_priceContAft{
   margin-top: 10vw;
   color:#fff;
-  font-family: serif;
+  font-family: 'Noto Serif JP', serif;
   text-align: center;
 }
 #SP_priceContAftTitle{
@@ -2472,7 +2472,7 @@ a {
   margin-right: auto;
   text-align: center;
   color:#fff;
-  font-family: serif;
+  font-family: 'Noto Serif JP', serif;
   display: flex;
 }
 #SP_priceContAftPriL{
@@ -2492,7 +2492,7 @@ a {
   font-size: 0.8rem;
   color:#fff;
   text-align: center;
-  font-family: serif;
+  font-family: 'Noto Serif JP', serif;
   margin-top: 10vw;
   margin-bottom: 5vw;
 }
@@ -2501,7 +2501,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   font-size: 0.5rem;
-  font-family: serif;
+  font-family: 'Noto Serif JP', serif;
   color: #fff;
   text-align: center;
   margin-bottom: 15vw;
@@ -2522,7 +2522,7 @@ a {
 #SP_galleryTitle{
   background-color: #142031;
   color:#fff;
-  font-family: serif;
+  font-family: 'Noto Serif JP', serif;
   text-align: center;
   padding-top: 7vw;
   padding-bottom: 7vw;
@@ -2627,7 +2627,7 @@ a {
 #SP_accessTitle{
   text-align: center;
   color:#fff;
-  font-family: serif;
+  font-family: 'Noto Serif JP', serif;
   padding-top: 10vw;
   padding-bottom: 10vw;
 }
@@ -2658,7 +2658,7 @@ width: 100%;
 }
 #SP_accessContSent{
   color:#fff;
-  font-family: serif;
+  font-family: 'Noto Serif JP', serif;
   font-size: 0.5rem;
   text-align: center;
   padding-top: 10vw;
@@ -2671,7 +2671,7 @@ width: 100%;
   padding-top: 8vw;
   padding-bottom: 8vw;
   color:#fff;
-  font-family: serif;
+  font-family: 'Noto Serif JP', serif;
   text-align: center;
 }
 #SP_contactTitleMain{
@@ -2682,7 +2682,7 @@ width: 100%;
   margin-top:-2vw;
 }
 #SP_contactCont{
-  font-family: serif;
+  font-family: 'Noto Serif JP', serif;
   color:#fff;
   text-align: center;
   font-size: 0.5rem;
@@ -2708,7 +2708,7 @@ width: 100%;
   background-color: #0A121F;
   color:#fff;
   text-align: center;
-  font-family: serif;
+  font-family: 'Noto Serif JP', serif;
   font-size: 0.5rem;
   padding-top: 8vw;
 }
