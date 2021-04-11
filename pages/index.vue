@@ -1020,6 +1020,7 @@ export default {
 * {
     margin: 0px;
     font-size:10px;
+    font-family: 'Noto Serif JP', serif;
 }
 #app {
   -webkit-font-smoothing: antialiased;
@@ -1027,6 +1028,7 @@ export default {
   text-align: center;
   background-color: #000307;
   color:#f4f5f7;
+  font-family: 'Noto Serif JP', serif;
 }
 #top{
   position:relative;
@@ -1965,6 +1967,7 @@ a {
 */
 #SP_app{
   background-color: #000;
+  font-family: 'Noto Serif JP', serif;
 }
 #SP_topHead{
   width:100%;
