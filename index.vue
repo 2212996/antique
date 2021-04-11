@@ -1016,7 +1016,7 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Noto+Serif+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Noto+Serif+JP&display=swap&subset=japanese');
 * {
     margin: 0px;
     font-size:10px;
