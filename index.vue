@@ -1016,13 +1016,12 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Noto+Serif+JP&display=swap&subset=japanese');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap');
 * {
     margin: 0px;
     font-size:10px;
 }
 #app {
-  font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
