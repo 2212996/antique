@@ -2312,7 +2312,7 @@ a {
 #SP_supportsContPic5{
   width: 80vw;
   height:45vw;
-  background:url(./assets/SPbook.jpg);
+  background:url(./assets/apps.jpg);
   background-size:cover;
   background-position: 50% 50%;
   margin-left: auto;
