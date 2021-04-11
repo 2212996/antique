@@ -360,10 +360,10 @@
             </div>
             <div id="SP_priceContAftPri">
               <div id="SP_priceContAftPriL">
-                入会金
+                月額(税込)
               </div>
               <div id="SP_priceContAftPriR">
-                33,000円
+                12,000円
               </div>
             </div>
           </div>
