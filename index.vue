@@ -1019,6 +1019,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Noto+Serif+JP&display=swap');
 * {
     margin: 0px;
+    font-size:10px;
 }
 #app {
   font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
@@ -1044,7 +1045,7 @@ export default {
 li {
   width: 9vw;
   height: 8vh;
-  font-size: 1vw;
+  font-size: 0.5rem;
   position: relative;
 }
 a {
@@ -2013,15 +2014,15 @@ a {
 }
 #SP_topPicSent{
   margin-left: -5vw;
-  padding-top: 85vw;
-  font-size: 10vw;
+  padding-top: 80vw;
+  font-size: 2.5rem;
   color: #fff;
   font-family: 'Anton', sans-serif;
   letter-spacing: 0.25vw;
 }
 #SP_topPicSent2{
   font-family: serif;
-  font-size: 1vw;
+  font-size: 0.5rem;
   line-height: 5vw;
   color: #fff;
   margin-left: -5vw;
@@ -2033,7 +2034,7 @@ a {
   margin-top:-7vw;
   color:#fff;
   padding-left: 4vw;
-  font-size: 3vw;
+  font-size: 0.5rem;
   font-family: serif;
   padding-top: 5vw;
   padding-bottom: 5vw;
@@ -2053,21 +2054,21 @@ a {
 }
 #SP_conseptTitleSent{
   font-family: serif;
-  font-size: 7vw;
+  font-size: 1.75rem;
   color:#dfbb30;
   text-align: center;
   margin-top: -5vw;
 }
 #SP_conseptTitleSent2{
   font-family: serif;
-  font-size: 1vw;
+  font-size: 0.5rem;
   color:#fff;
   text-align: center;
   margin-top: -2vw;
 }
 #SP_conseptSent{
   color:#fff;
-  font-size: 1.25vw;
+  font-size: 0.6rem;
   text-align: center;
   margin-top: 7.5vw;
   font-family: 'Noto Serif JP', serif;
@@ -2083,10 +2084,10 @@ a {
   margin-left: 10vw;
 }
 #SP_trainerTitleMain{
-  font-size: 9vw;
+  font-size: 1.75rem;
 }
 #SP_trainerTitleSub{
-  font-size: 1vw;
+  font-size: 0.5rem;
   margin-top: -3vw;
 } 
 #SP_trainerCont{
@@ -2109,18 +2110,18 @@ a {
   font-family: 'Noto Serif JP', serif;
 }
 #SP_trainerContSentName{
-  font-size: 5.5vw;
+  font-size: 1.25rem;
 }
 #SP_trainerContSentName a1{
-  font-size: 2vw;
+  font-size: 0.5rem;
   color:#B59514;
   margin-left: 4vw;
 }
 #SP_trainerContSentYear{
-  font-size: 1vw;
+  font-size: 0.5rem;
 }
 #SP_trainerContSentMain{
-  font-size: 1vw;
+  font-size: 0.5rem;
   margin-top:7.5vw;
   line-height: 5vw;
   letter-spacing: 0.15vw;
@@ -2134,10 +2135,10 @@ a {
   text-align: center;
 }
 #SP_aboutusTitleMain{
-  font-size: 8vw;
+  font-size: 1.75rem;
 }
 #SP_aboutusTitleSub{
-  font-size: 1vw;
+  font-size: 0.5rem;
 }
 #SP_aboutusCont{
   color:#fff;
@@ -2158,19 +2159,19 @@ a {
   margin-left: auto;
   margin-right: auto;
   color:#B59514;
-  font-size: 6vw;
+  font-size: 1.4rem;
   margin-top: -4vw;
 }
 #SP_aboutusCont1Title a1{
   color:#fff;
-  font-size: 1vw;
+  font-size: 0.5rem;
   margin-left: 4vw;
 }
 #SP_aboutusCont1Sent{
   width:70vw;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1vw;
+  font-size: 0.5rem;
   line-height: 5vw;
   letter-spacing: 0.15vw;
   margin-top: 2vw;
@@ -2192,19 +2193,19 @@ a {
   margin-left: auto;
   margin-right: auto;
   color:#B59514;
-  font-size: 6vw;
+  font-size: 1.4rem;
   margin-top: -4vw;
 }
 #SP_aboutusCont2Title a1{
   color:#fff;
-  font-size: 1vw;
+  font-size: 0.5rem;
   margin-left: 4vw;
 }
 #SP_aboutusCont2Sent{
   width:70vw;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1vw;
+  font-size: 0.5rem;
   line-height: 5vw;
   letter-spacing: 0.15vw;
   margin-top: 2vw;
@@ -2225,19 +2226,19 @@ a {
   margin-left: auto;
   margin-right: auto;
   color:#B59514;
-  font-size: 6vw;
+  font-size: 1.4rem;
   margin-top: -4vw;
 }
 #SP_aboutusCont3Title a1{
   color:#fff;
-  font-size: 1vw;
+  font-size: 0.5rem;
   margin-left: 4vw;
 }
 #SP_aboutusCont3Sent{
   width:70vw;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1vw;
+  font-size: 0.5rem;
   line-height: 5vw;
   letter-spacing: 0.15vw;
   margin-top: 2vw;
@@ -2252,14 +2253,14 @@ a {
   padding-bottom: 7vw;
 }
 #SP_supportsTitleSub{
-  font-size: 1vw;
+  font-size: 0.5rem;
 }
 #SP_supportsTitleMain{
-  font-size: 8vw;
+  font-size: 1.75rem;
   color:#B59514;
 }
 #SP_supportsTitleSent{
-  font-size: 1vw;
+  font-size: 0.5rem;
 }
 #SP_supportsCont{
   color:#fff;
@@ -2267,7 +2268,7 @@ a {
 }
 #SP_supportsContTitle{
   font-family: 'Anton', sans-serif;
-  font-size: 6vw;
+  font-size: 1.4rem;
   margin-left: 5vw;
 }
 #SP_supportsContPic1{
@@ -2329,13 +2330,13 @@ a {
 }
 #SP_supportsContSentMain{
   font-family: serif;
-  font-size: 3.5vw;
+  font-size: 0.8rem;
   margin-top:2.5vw;
   margin-bottom: 2.5vw;
 }
 #SP_supportsContSent2{
   font-family: serif;
-  font-size: 1vw;
+  font-size: 0.5rem;
   line-height: 5.5vw;
   letter-spacing: 0.15vw;
   width:70vw;
@@ -2352,11 +2353,11 @@ a {
   margin-top: 20vw;
 }
 #SP_priceTitleMain{
-  font-size: 9vw;
+  font-size: 1.75rem;
 }
 #SP_priceTitleSub{
-  font-size: 1vw;
-  margin-top: -3vw;
+  font-size: 0.5rem;
+  margin-top: -2vw;
 }
 #SP_priceContEnt{
   width: 70vw;
@@ -2371,13 +2372,13 @@ a {
 #SP_priceContEntL{
   width:50%;
   background-color: #B59514;
-  font-size: 1.25vw;
+  font-size: 0.5rem;
   padding-top: 2vw;
   padding-bottom: 2vw;
 }
 #SP_priceContEntR{
   width:50%;
-  font-size: 1.25vw;
+  font-size: 0.5rem;
   padding-top: 2vw;
   padding-bottom: 2vw;
 }
@@ -2388,14 +2389,14 @@ a {
   text-align: center;
 }
 #SP_priceContAntTitle{
-  font-size: 3.5vw;
+  font-size: 0.8rem;
 }
 #SP_priceContAntSub{
-  font-size: 1vw;
+  font-size: 0.5rem;
 }
 #SP_priceContAntLine{
   color:#dfbb30;
-  font-size: 5vw;
+  font-size: 1rem;
   margin-top:-0vw;
   margin-bottom: 4vw;
 }
@@ -2403,7 +2404,7 @@ a {
   display: flex;
   text-align: left;
   width: 75vw;
-  font-size: 1vw;
+  font-size: 0.5rem;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5vw;
@@ -2418,7 +2419,7 @@ a {
   width:95vw;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1vw;
+  font-size: 0.5rem;
 }
 #SP_priceContTable table{
   width: 100%;
@@ -2440,14 +2441,14 @@ a {
   text-align: center;
 }
 #SP_priceContAftTitle{
-  font-size: 3.5vw;
+  font-size: 0.8rem;
 }
 #SP_priceContAftSub{
-  font-size: 1vw;
+  font-size: 0.5rem;
 }
 #SP_priceContAftLine{
   color:#dfbb30;
-  font-size: 5vw;
+  font-size: 1rem;
   margin-top:-0vw;
   margin-bottom: 4vw;
 }
@@ -2455,7 +2456,7 @@ a {
   display: flex;
   text-align: left;
   width: 75vw;
-  font-size: 1vw;
+  font-size: 0.5rem;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5vw;
@@ -2478,18 +2479,18 @@ a {
 #SP_priceContAftPriL{
   width:50%;
   background-color: #B59514;
-  font-size: 1.25vw;
+  font-size: 0.5rem;
   padding-top: 2vw;
   padding-bottom: 2vw;
 }
 #SP_priceContAftPriR{
   width:50%;
-  font-size: 1.25vw;
+  font-size: 0.5rem;
   padding-top: 2vw;
   padding-bottom: 2vw;
 }
 #SP_priceContKaiTitle{
-  font-size: 3.5vw;
+  font-size: 0.8rem;
   color:#fff;
   text-align: center;
   font-family: serif;
@@ -2500,7 +2501,7 @@ a {
   width:95vw;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1vw;
+  font-size: 0.5rem;
   font-family: serif;
   color: #fff;
   text-align: center;
@@ -2528,14 +2529,14 @@ a {
   padding-bottom: 7vw;
 }
 #SP_galleryTitleSub{
-  font-size: 1vw;
+  font-size: 0.5rem;
 }
 #SP_galleryTitleMain{
-  font-size: 8vw;
+  font-size: 1.75rem;
   color:#B59514;
 }
 #SP_galleryTitleSent{
-  font-size: 1vw;
+  font-size: 0.5rem;
 }
 #SP_galleryPic1{
   display: flex;
@@ -2632,10 +2633,10 @@ a {
   padding-bottom: 10vw;
 }
 #SP_accessTitleMain{
-  font-size: 8vw;
+  font-size: 1.75rem;
 }
 #SP_accessTitleSub{
-  font-size: 1vw;
+  font-size: 0.5rem;
   margin-top: -2vw;
 }
 #SP_accessCont{
@@ -2659,7 +2660,7 @@ width: 100%;
 #SP_accessContSent{
   color:#fff;
   font-family: serif;
-  font-size: 1vw;
+  font-size: 0.5rem;
   text-align: center;
   padding-top: 10vw;
   padding-bottom: 10vw;
@@ -2675,17 +2676,17 @@ width: 100%;
   text-align: center;
 }
 #SP_contactTitleMain{
-  font-size: 8vw;
+  font-size: 1.75rem;
 }
 #SP_contactTitleSub{
-  font-size: 1vw;
+  font-size: 0.5rem;
   margin-top:-2vw;
 }
 #SP_contactCont{
   font-family: serif;
   color:#fff;
   text-align: center;
-  font-size: 1vw;
+  font-size: 0.5rem;
 }
 #SP_contactContMail{
   padding-top: 10vw;
@@ -2709,7 +2710,7 @@ width: 100%;
   color:#fff;
   text-align: center;
   font-family: serif;
-  font-size: 1vw;
+  font-size: 0.5rem;
   padding-top: 8vw;
 }
 #SP_footerLogo{
@@ -2727,7 +2728,7 @@ width: 100%;
   font-weight: bold;
 }
 #SP_footerSent a1{
-  font-size: 4vw;
+  font-size: 1.25rem;
   color:#f5d556;
 }
 #SP_footerCopy{
