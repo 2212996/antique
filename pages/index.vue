@@ -78,7 +78,7 @@
               柴田 渉<a1>SHIBATA WATARU</a1>
             </div>
             <div id="SP_trainerContSentYear">
-              浜松市出身　1995/01/12
+              浜松市出身　1994/01/12
             </div>
             <div id="SP_trainerContSentMain">
               大学にて管理栄養士を取得．<br>
