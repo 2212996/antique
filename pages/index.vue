@@ -35,7 +35,7 @@
           <div id="SP_conseptTitlePic">
           </div>
           <div id="SP_conseptTitleSent">
-            CONSEPT
+            CONCEPT
           </div>
           <div id="SP_conseptTitleSent2">
             THE ORIGIN OF ANTIQUE
@@ -552,7 +552,7 @@
       <div id="consept">
         <div id="conseptPic">
           <div id="conseptPicTitle">
-            <div id="conseptPicTitleMain">CONSEPT</div>
+            <div id="conseptPicTitleMain">CONCEPT</div>
             <div id="conseptPicTitleSub">ORIGIN OF ANTIQUE</div>
           </div>
         </div>
