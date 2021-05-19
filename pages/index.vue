@@ -491,9 +491,12 @@
 
           </div>
           <div id="SP_contactContSent">
-            見学予約やお問い合わせはこちらのLINEQRコードから！<br>
+            見学予約やお問い合わせはLINEQRコード
+            <br>又は下の友だち追加ボタンから！<br>
             ジム入会後のご連絡もLINE上で行って頂けます．
           </div>
+          <div class="line-it-button" data-lang="ja" data-type="friend" data-lineid="@584kyyvn" style="display: none;"></div>
+          <script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
         </div>
       </div>
       <div id="SP_footer">
@@ -972,9 +975,11 @@
         <div id="contactLine">
           <div id="contactLineQR"></div>
           <div id="contactLineCont">
-            見学予約やお問い合わせはこちらのLINEQRコードから！<br>
+            見学予約やお問い合わせはこちらのLINEQRコード,又は下の友だち追加ボタンから！<br>
             ジム入会後のご連絡もLINE上で行って頂けます．
           </div>
+          <div class="line-it-button" data-lang="ja" data-type="friend" data-lineid="@584kyyvn" style="display: none;"></div>
+          <script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
         </div>
       </div>
       <div id="footer">
@@ -1909,7 +1914,12 @@ a {
   letter-spacing: 0.05vw;
   font-family: serif;
   margin-top: 2vw;
-  margin-bottom: 5vw;
+  margin-bottom: 2vw;
+}
+#line-it-button{
+  width:15%;
+  height:auto;
+  margin:auto;
 }
 #footer{
   background-color: #09121f;
@@ -2690,6 +2700,7 @@ width: 100%;
   color:#fff;
   text-align: center;
   font-size: 0.5rem;
+  margin-bottom:10vw;
 }
 #SP_contactContMail{
   padding-top: 10vw;
