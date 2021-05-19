@@ -57,7 +57,7 @@
           <br>
           理想の身体で心も身体も健康に<br>
           「お客様の生涯の健康を一任する」<br>
-          これがパーソナルANTIQUEの信念です
+          これがパーソナルジムANTIQUEの信念です
         </div>
       </div>
       <div id="SP_trainer">
@@ -493,7 +493,7 @@
           <div id="SP_contactContSent">
             見学予約やお問い合わせはLINEQRコード
             <br>又は下の友だち追加ボタンから！<br>
-            ジム入会後のご連絡もLINE上で行って頂けます．
+            ジム入会後のご連絡もLINE上で行っていただけます．
           </div>
           <div class="line-it-button" data-lang="ja" data-type="friend" data-lineid="@584kyyvn" style="display: none;"></div>
           <script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
@@ -580,7 +580,7 @@
           <br>
           理想の身体で心も身体も健康に<br>
           「お客様の生涯の健康を一任する」<br>
-          これがパーソナルANTIQUEの信念です<br>
+          これがパーソナルジムANTIQUEの信念です<br>
         </div>
       </div>
       <div id="trainer">
@@ -976,7 +976,7 @@
           <div id="contactLineQR"></div>
           <div id="contactLineCont">
             見学予約やお問い合わせはこちらのLINEQRコード,又は下の友だち追加ボタンから！<br>
-            ジム入会後のご連絡もLINE上で行って頂けます．
+            ジム入会後のご連絡もLINE上で行っていただけます．
           </div>
           <div class="line-it-button" data-lang="ja" data-type="friend" data-lineid="@584kyyvn" style="display: none;"></div>
           <script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
