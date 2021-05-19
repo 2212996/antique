@@ -1,2 +1,5 @@
-[build]
-  publish = "/"
+[[redirects]]
+from = "https://personalgym-antique.netlify.app/"
+to = "https://www.personalgym-antique.com/"
+status = 301
+force = true
