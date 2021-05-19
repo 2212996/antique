@@ -26,7 +26,7 @@
         </div>
         <div id="SP_topNewsBack">
           <div id="SP_topNews">
-            <a1>2021/04/11</a1>  ホームページ公開！お待たせしました！
+            <a1>2021/05/19</a1>  ホームページ公開！お待たせしました！
           </div>
         </div>
       </div>
