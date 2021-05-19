@@ -7,13 +7,15 @@
 <style>
 html {
   font-family:
-    'Source Sans Pro',
+    /*'Source Sans Pro',
     -apple-system,
     BlinkMacSystemFont,
     'Segoe UI',
     Roboto,
-    'Helvetica Neue',
+    'Helvetica Neue',*/
     Arial,
+    serif,
+    Noto Serif JP,
     sans-serif;
   font-size: 16px;
   word-spacing: 1px;
