@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'パーソナルジムANTIQUE',
+    title: '隠れ家パーソナルジム ANTIQUE',
     htmlAttrs: {
       lang: 'ja'
     },
