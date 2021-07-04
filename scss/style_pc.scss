@@ -1,0 +1,629 @@
+// Scss Document
+.sp{
+	display: none!important;
+}
+.pc{
+	display: inline-block!important;
+}
+$yellow:#967800;
+$ytxt:#D3C485;
+html { font-size: 62.5%; }
+body{
+	font-family: 'Noto Serif JP', serif;
+	background: #fff;
+	font-size: 1.5rem;
+	line-height: 180%;
+	color: #fff;
+	background: #000;
+}
+img{
+	width: 100%;
+	height: auto;
+	-webkit-backface-visibility: hidden;
+}
+a{
+	color: #fff;
+	transition: all 0.3s ease 0s;
+	&:hover{
+		opacity: 0.5;
+	}
+}
+strong{
+	font-weight: 700;
+}
+.ytxt{
+	color: $ytxt;
+}
+.txtC{
+	text-align: center;
+}
+p{
+	padding-bottom: 15px;
+}
+.box{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+nav{
+	ul{
+		@media screen and (min-width: 1000px) {
+			font-size: 1.4rem;
+			li{
+				padding: 0 20px;
+			}
+		}
+		font-size: 1.5vw;
+		display: flex;
+		justify-content: flex-end;
+		li{
+			padding: 0 10px;
+			text-align: center;
+			a{
+				display: block;
+				padding:20px 5px;
+				text-decoration: none;
+			}
+			&:last-of-type{
+				padding: 0;
+				a{
+					padding:20px 30px;
+					background: $yellow;
+				}
+			}
+		}
+	}
+}
+header{
+	text-align: center;
+	letter-spacing: 2px;
+	height: 90vh;
+	background: url("../img/top.jpg") no-repeat;
+	background-size: cover;
+	padding-top: 15vh;
+	.title{
+		background: rgba(0,0,0,0.65);
+		padding: 20px;
+		text-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+		h1{
+			font-weight: normal;
+			line-height: 270%;
+			font-size: 1.6rem;
+			padding-bottom: 20px;
+			strong{
+				color: $ytxt;
+				font-size: 2.0rem;
+			}
+			span{
+				font-size: 4.0rem;
+			}
+		}
+	}
+	.logo{
+		text-align: center;
+		img{
+			max-width: 100px;
+		}
+	}
+	.btn{
+		box-shadow: 0px 0px 15px -5px #777777;
+		text-decoration: none;
+		display: block;
+		text-align: center;
+		max-width: 500px;
+		margin: 20px auto;
+		padding: 10px;
+		background: rgba(255,251,251,0.85);
+		color: $yellow;
+		border: $yellow solid 1px;
+		font-size: 1.6rem;
+		text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.99);
+		&:hover{
+			opacity: 1;
+		}
+		strong{
+			font-size: 2.2rem;
+			text-decoration: underline;
+			&.syokai{
+				font-size: 2.5rem;
+			}
+		}
+		span{
+			display: inline-block;
+			background: $yellow;
+			padding: 0 15px;
+			border-radius: 50px;
+			color: #fff;
+			margin-top: 10px;
+			text-shadow: 0px 0px 5px rgba(255, 255, 255, 0);
+		}
+	}
+}
+
+.box0{
+	text-align: center;
+	h2{
+		line-height: 150%;
+		font-weight: normal;
+		color: $ytxt;
+		letter-spacing: 2px;
+		font-size: 4.0rem;
+		margin-bottom: 40px;
+		strong{
+			display: block;
+			font-weight: normal;
+			font-size: 1.5rem;
+			color: #fff;
+			line-height: 100%;
+		}
+	}
+	
+}
+.OPEN{
+	h2{
+		margin-bottom: 10px;
+		span{
+			font-size: 2.5rem;
+		}
+	}
+	.syokai{
+		border: 4px double $yellow;
+		padding: 10px 10px 0;
+		margin-bottom: 20px;
+		background: #071526;
+		h2{
+			padding-bottom: 10px;
+			border-bottom: 1px solid $ytxt;
+		}
+	}
+	max-width: 800px;
+	margin : 60px auto 30px;
+	padding: 30px;
+	background: #0E2748;
+	table{
+		width: 50%;
+		margin: 0 auto 20px;
+		font-size: 2.0rem;
+		th,td{
+			border: 2px solid #0E2748;
+			padding: 5px 5px 5px;
+		}
+		th{
+			background:$yellow;
+			padding-bottom:5px;
+
+		}
+		td{
+			color: $ytxt;
+			border-bottom: 2px solid #244B7F;
+			
+		}
+	}
+	ul{
+		text-align: left;
+		
+	}
+	.txt1{
+		display: inline-block;
+		margin: 0 auto 20px;
+		li{
+			margin-left: 2em;
+			color: $ytxt;
+		}
+	}
+	.txt2{
+		display: inline-block;
+		list-style: none;
+		text-indent: -1em;
+		padding-left: 1em;
+	}
+}
+#CONCEPT{
+	margin: 60px auto;
+	letter-spacing: 2px;
+	line-height: 200%;
+	background: url("../img/consepts.jpg") no-repeat top center;
+	background-size: 80% auto;
+	max-width: 800px;
+	padding-top: 280px;
+	.line{
+		display: flex;
+		align-items: center;
+		span{
+			color: $yellow;
+		}
+		&:before,
+		&:after {
+		content: "";
+		flex-grow: 1;
+		height: 1px;
+		background: #fff;
+		margin:0 1em;
+		}
+	}
+}
+#TRAINER{
+	margin-top: 150px;
+	text-align: left;
+	margin-right: 10%;
+	background: #050E1A;
+	section{
+		position: relative;
+		padding: 5em 20px 30px;
+		@media screen and (min-width: 1000px) {
+			padding-left: 15%
+		}
+		h2{
+			position: absolute;
+			top:-37px;
+			font-size: 5.0rem;
+			color: #757575;
+		}
+		h3{
+			font-weight: normal;
+			font-size: 2.8rem;
+			padding-bottom: 10px;
+			strong{
+				font-weight: normal;
+				font-size: 1.6rem;
+				color: $ytxt;
+			}
+		}
+		.from{
+			padding-bottom: 20px;
+		}
+		.box{
+			.img{
+				flex-basis: 40%;
+				max-width: 400px;
+			}
+			.txt{
+				flex-basis: 57%;
+				padding-left: 3%;
+				p{
+					line-height: 200%;
+				}
+			}
+		}
+	}
+}
+#ABOUT{
+	margin-top: 150px;
+	letter-spacing: 2px;
+	section{
+		padding-top: 40px;
+		text-align: left;
+		display: flex;
+		h3{
+			flex-basis: 50%;
+			background: url("../img/gallery3.jpg") no-repeat center center;
+			background-size: cover;
+			border-bottom: 30px solid #142031;
+			position: relative;
+			text-shadow: 0px 0px 11px rgba(0, 0, 0, 1);
+			strong{
+				font-size: 2.8rem;
+				position: absolute;
+				bottom:-25px;
+				display: block;
+				padding: 0 20px;
+				color: $ytxt;
+				span{
+					color: #fff;
+					font-size: 1.5rem;
+					font-weight: normal;
+				}
+			}
+		}
+		p{
+			flex-basis: 46%;
+			padding:30px 2% 40px;
+			font-size: 1.4rem;
+		}
+		&:nth-of-type(1),
+		&:nth-of-type(3){
+			h3{
+				@media screen and (min-width: 1390px) {
+					strong{
+						padding-left:20%;
+					}
+				}
+			}
+		}
+		&:nth-of-type(2){
+			h3{
+				order: 2;
+				background-image: url("../img/top.jpg") ;
+			}
+			p{
+				order: 1;
+				@media screen and (min-width: 1450px) {
+					flex-basis: 48%-13%;
+					padding-left:13%;
+				}
+			}
+		}
+		&:nth-of-type(3){
+			h3{
+				background-image: url("../img/gallery1.jpg") ;
+			}
+		}
+	}
+}
+
+#SUPPORTS{
+	margin-top: 150px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background: #09121F;
+	.box{
+		padding-top: 60px;
+		max-width: 1100px;
+		margin: 0 auto;
+		justify-content: center;
+		.bg{
+			flex-basis: 31%;
+			padding:0 1%;
+		}
+		section{
+			display: flex;
+			padding:0 2% 5%;
+			img{
+				object-fit: cover;
+				height: 200px;
+			}
+			h3{
+				writing-mode:vertical-rl;
+				text-align: left;
+				font-size: 3.0rem;
+				padding-right: 10px;
+				display: flex;
+				align-items: center;
+				span{
+					transform: scale(0.5, 4);
+				}
+			}
+			p{
+				text-align: left;
+				font-size: 1.4rem;
+			}
+		}
+	}
+}
+
+#PRICE{
+	margin-top: 150px;
+	h3{
+		color: $ytxt;
+		background: #152944;
+		padding: 10px;
+		font-size: 2.0rem;
+		span{
+			color: #fff;
+			font-weight: normal;
+			font-size: 1.8rem;
+		}
+	}
+	.all{
+		margin: 0 auto;
+		max-width: 500px;
+		padding-bottom: 40px;
+		dt{
+			background:$yellow;
+			font-size: 2.0rem;
+			padding: 10px;
+		}
+		dd{
+			color: $ytxt;
+			font-size: 2.3rem;
+			font-weight: bold;
+			padding: 10px;
+		}
+	}
+	.small{
+		font-size: 1.3rem;
+		padding-bottom: 0;
+	}
+	section{
+		background: #09121F;
+		max-width: 900px;
+		margin: 0 auto 30px;
+		.box{
+			padding: 20px 30px;
+		}
+		ul{
+			text-align: left;
+			li{
+				margin-left: 2em;
+			}
+		}
+		table{
+			th,td{
+				border: 2px solid #09121F;
+				padding: 5px 5px 5px;
+			}
+			th{
+				background:$yellow;
+				padding-bottom:5px;
+				
+			}
+			td{
+				color: $ytxt;
+				border-bottom: 2px solid #152944;
+			}
+		}
+		.txt{
+			flex-basis: 40%;
+		}
+		.pr{
+			flex-basis: 60%;
+			table{
+				width: 100%
+			}
+		}
+		p{
+			text-align: left;
+			padding-left: 0.5em;
+		}
+		h4{
+			text-align: left;
+			border-left: 10px solid $yellow;
+			margin: 20px 0 10px;
+			padding-left: 10px;
+			span{
+				color: $ytxt;
+				font-weight: normal;
+			}
+		}
+	}
+}
+#GALLERY{
+	margin-top: 150px;
+	div{
+		padding-top:3%;
+		display: flex;
+		ul{
+			list-style: none;
+			flex-basis: 34%;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: flex-end;
+			align-items:flex-start;
+			li{
+				font-size: 0;
+				line-height: 100%;
+				object-fit: cover;
+				background: #ddd no-repeat center center;
+				background-size: cover;
+				span{
+					display: block;
+					width: 100%;
+				}
+			}
+			&:nth-of-type(1){
+				li:nth-of-type(1){
+					flex-basis: 100%;
+					background-image:url("../img/gallery1.jpg");
+					span{
+						height: 25vw;
+					}
+				}
+				li:nth-of-type(2){
+					flex-basis: 43%;
+					background-image:url("../img/pipic.jpg");
+					span{
+						height: 12.5vw;
+					}
+				}
+				li:nth-of-type(3){
+					flex-basis: 43%;
+					background-image:url("../img/starr.jpg");
+					span{
+						height: 12.5vw;
+					}
+				}
+			}
+			&:nth-of-type(2){
+				li:nth-of-type(1){
+					flex-basis: 60%;
+					background-image:url("../img/gallery3.jpg");
+					span{
+						height: 12.5vw;
+					}
+				}
+				li:nth-of-type(2){
+					flex-basis: 40%;
+					background-image:url("../img/gallery4.jpg");
+					span{
+						height: 12.5vw;
+					}
+				}
+				li:nth-of-type(3){
+					flex-basis: 40%;
+					background-image:url("../img/baby.jpg");
+					span{
+						height: 12.5vw;
+					}
+				}
+				li:nth-of-type(4){
+					flex-basis: 60%;
+					background-image:url("../img/boy.jpg");
+					span{
+						height: 25vw;
+					}
+				}
+			}
+			&:nth-of-type(3){
+				li:nth-of-type(1){
+					flex-basis: 40%;
+					background-image:url("../img/rady.jpg");
+					span{
+						height: 12.5vw;;
+					}
+				}
+				li:nth-of-type(2){
+					flex-basis: 60%;
+					background-image:url("../img/gallery2.jpg");
+					span{
+						height: 25vw;
+					}
+				}
+				li:nth-of-type(3){
+					flex-basis: 60%;
+					background-image:url("../img/star.jpg");
+					span{
+						height: 12.5vw;
+					}
+				}
+				li:nth-of-type(4){
+					flex-basis: 40%;
+					background-image:url("../img/gallery5.jpg");
+					span{
+						height: 12.5vw;
+					}
+				}
+			}
+		}
+	}
+}
+#ACCESS{
+	margin-top: 150px;
+	iframe{
+		padding: 0 0 2%;
+		width: 100%;
+		max-width: 900px;
+		margin: 0 auto;
+		height: 400px;
+	}
+}
+#CONTACT{
+	margin-top: 150px;
+	padding: 0 20px;
+	img.qr{
+		max-width: 200px;
+		padding-bottom: 10px;
+	}
+	img.btn{
+		max-width: 232px;
+	}
+	strong{
+		color: $ytxt;
+	}
+}
+footer{
+	margin-top: 150px;
+	text-align: center;
+	background: #09121F;
+	padding: 3% 20px;
+	.logo{
+		img{
+			max-width: 100px;
+		}
+	}
+	h2{
+		font-weight: normal;
+		strong{
+			color: $yellow;
+		}
+	}
+}
