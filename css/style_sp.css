@@ -1,0 +1,236 @@
+.pc {
+  display: none !important; }
+
+.sp {
+  display: block !important; }
+
+html {
+  font-size: 50%; }
+
+nav ul {
+  display: none; }
+
+header {
+  padding-top: 0;
+  height: auto;
+  background: none; }
+  header .title {
+    background: black; }
+    header .title h1 {
+      line-height: 170%;
+      font-size: 3vw;
+      padding-bottom: 10px; }
+      header .title h1 strong {
+        color: #D3C485;
+        font-size: 2.0rem; }
+      header .title h1 span {
+        font-size: 6vw; }
+    header .title p {
+      padding-bottom: 0; }
+  header .logo img {
+    max-width: none;
+    width: 15%; }
+  header .btn {
+    line-height: 150%;
+    max-width: none;
+    margin: 20px 8%;
+    font-size: 3vw; }
+    header .btn strong {
+      font-size: 3.5vw; }
+  header .bg {
+    padding-top: 2vh;
+    padding-bottom: 34vh;
+    background: url("../img/top.jpg") no-repeat;
+    background-size: cover;
+    background-position: center 54%; }
+
+.box0 {
+  text-align: center; }
+  .box0 h2 {
+    font-size: 3.0rem; }
+    .box0 h2 strong {
+      font-size: 15px; }
+
+.OPEN {
+  margin: 60px 10px 10px 10px;
+  padding: 10px;
+  background: #0E2748; }
+  .OPEN table {
+    width: 100%;
+    margin: 0 auto 20px;
+    font-size: 2.0rem; }
+    .OPEN table th, .OPEN table td {
+      border: 2px solid #0E2748;
+      padding: 5px 5px 5px; }
+    .OPEN table th {
+      background: #967800;
+      padding-bottom: 5px; }
+    .OPEN table td {
+      color: #D3C485;
+      border-bottom: 2px solid #244B7F; }
+  .OPEN ul {
+    text-align: left; }
+  .OPEN .txt1 {
+    display: block;
+    margin: 0 auto 20px; }
+    .OPEN .txt1 li {
+      margin-left: 2em;
+      color: #D3C485; }
+  .OPEN .txt2 {
+    display: block;
+    list-style: none; }
+
+#CONCEPT {
+  padding-top: 34%; }
+
+#TRAINER {
+  margin-top: 15%;
+  margin-right: 0%; }
+  #TRAINER section {
+    padding: 5em 20px 30px; }
+    #TRAINER section h2 {
+      font-size: 4.0rem; }
+    #TRAINER section .box {
+      display: block; }
+      #TRAINER section .box .img {
+        max-width: 100%; }
+        #TRAINER section .box .img img {
+          height: 260px;
+          object-fit: cover;
+          object-position: 0% 20%; }
+      #TRAINER section .box .txt {
+        padding-top: 20px;
+        padding-left: 0%; }
+
+#ABOUT {
+  margin-top: 50px;
+  padding: 20px; }
+  #ABOUT section {
+    padding: 0;
+    display: block; }
+    #ABOUT section h3 {
+      height: 140px; }
+      #ABOUT section h3 strong {
+        font-size: 2.0rem;
+        bottom: -16px; }
+    #ABOUT section p {
+      padding: 20px 10px 30px; }
+    #ABOUT section:nth-of-type(2) h3 {
+      background-position: 50% 60%; }
+
+#SUPPORTS {
+  margin-top: 0px;
+  padding-top: 40px;
+  padding-bottom: 20px; }
+  #SUPPORTS .box {
+    display: block;
+    padding-top: 30px; }
+    #SUPPORTS .box section {
+      display: block;
+      padding: 0 30px;
+      background: rgba(9, 18, 31, 0.8); }
+      #SUPPORTS .box section h3 {
+        writing-mode: horizontal-tb;
+        text-indent: -1em;
+        padding-bottom: 20px; }
+        #SUPPORTS .box section h3 span {
+          display: none;
+          transform: none; }
+      #SUPPORTS .box section h4 {
+        font-size: 2.0rem;
+        text-align: left;
+        padding: 10px 0;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #967800; }
+      #SUPPORTS .box section img {
+        display: none; }
+    #SUPPORTS .box .bg {
+      background: url("../img/weight.jpg") no-repeat;
+      background-size: 70%;
+      background-position: center center;
+      margin-bottom: 10%; }
+      #SUPPORTS .box .bg:nth-of-type(2) {
+        background-image: url("../img/kigu.jpg"); }
+      #SUPPORTS .box .bg:nth-of-type(3) {
+        background-image: url("../img/sasasa.jpg"); }
+      #SUPPORTS .box .bg:nth-of-type(4) {
+        background-image: url("../img/SPfour.jpg"); }
+        #SUPPORTS .box .bg:nth-of-type(4) section {
+          background: rgba(9, 18, 31, 0.3); }
+      #SUPPORTS .box .bg:nth-of-type(5) {
+        background-image: url("../img/book.jpg"); }
+
+#PRICE {
+  margin-top: 50px;
+  padding: 0 20px; }
+  #PRICE section .box {
+    display: block;
+    text-align: center;
+    padding: 10px; }
+  #PRICE section table {
+    width: 100%;
+    margin-top: 0px; }
+    #PRICE section table th, #PRICE section table td {
+      padding: 3px; }
+  #PRICE section ul {
+    display: inline-block; }
+  #PRICE section .txt p {
+    text-align: center; }
+
+#GALLERY {
+  margin-top: 50px; }
+  #GALLERY div {
+    display: block;
+    justify-content: flex-start; }
+    #GALLERY div ul:nth-of-type(1) li:nth-of-type(1) {
+      flex-basis: 70%; }
+      #GALLERY div ul:nth-of-type(1) li:nth-of-type(1) span {
+        height: 60vw; }
+    #GALLERY div ul:nth-of-type(1) li:nth-of-type(2) {
+      flex-basis: 30%; }
+      #GALLERY div ul:nth-of-type(1) li:nth-of-type(2) span {
+        height: 40vw; }
+    #GALLERY div ul:nth-of-type(2) li:nth-of-type(1) {
+      flex-basis: 60%; }
+      #GALLERY div ul:nth-of-type(2) li:nth-of-type(1) span {
+        height: 30vw; }
+    #GALLERY div ul:nth-of-type(2) li:nth-of-type(2) {
+      flex-basis: 40%; }
+      #GALLERY div ul:nth-of-type(2) li:nth-of-type(2) span {
+        height: 30vw; }
+    #GALLERY div ul:nth-of-type(2) li:nth-of-type(3) {
+      flex-basis: 40%; }
+      #GALLERY div ul:nth-of-type(2) li:nth-of-type(3) span {
+        height: 40vw; }
+    #GALLERY div ul:nth-of-type(2) li:nth-of-type(4) {
+      flex-basis: 60%; }
+      #GALLERY div ul:nth-of-type(2) li:nth-of-type(4) span {
+        height: 60vw; }
+    #GALLERY div ul:nth-of-type(3) li:nth-of-type(1) {
+      background-image: url("../img/gallery2.jpg");
+      flex-basis: 60%; }
+      #GALLERY div ul:nth-of-type(3) li:nth-of-type(1) span {
+        height: 60vw; }
+    #GALLERY div ul:nth-of-type(3) li:nth-of-type(2) {
+      background-image: url("../img/rady.jpg");
+      flex-basis: 40%; }
+      #GALLERY div ul:nth-of-type(3) li:nth-of-type(2) span {
+        height: 40vw; }
+    #GALLERY div ul:nth-of-type(3) li:nth-of-type(3) {
+      flex-basis: 60%; }
+      #GALLERY div ul:nth-of-type(3) li:nth-of-type(3) span {
+        height: 30vw; }
+    #GALLERY div ul:nth-of-type(3) li:nth-of-type(4) {
+      flex-basis: 40%; }
+      #GALLERY div ul:nth-of-type(3) li:nth-of-type(4) span {
+        height: 30vw; }
+
+#ACCESS {
+  margin-top: 50px; }
+
+#CONTACT {
+  margin-top: 50px; }
+
+footer {
+  margin-top: 50px;
+  font-size: 1.3rem; }
