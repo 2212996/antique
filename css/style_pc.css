@@ -42,27 +42,32 @@ p {
   display: flex;
   flex-wrap: wrap; }
 
-nav ul {
-  font-size: 1.5vw;
-  display: flex;
-  justify-content: flex-end; }
-  @media screen and (min-width: 1000px) {
-    nav ul {
-      font-size: 1.4rem; }
-      nav ul li {
-        padding: 0 20px; } }
-  nav ul li {
-    padding: 0 10px;
-    text-align: center; }
-    nav ul li a {
-      display: block;
-      padding: 20px 5px;
-      text-decoration: none; }
-    nav ul li:last-of-type {
-      padding: 0; }
-      nav ul li:last-of-type a {
-        padding: 20px 30px;
-        background: #967800; }
+nav {
+  z-index: 99;
+  position: fixed;
+  width: 100%;
+  background: #000; }
+  nav ul {
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: flex-end; }
+    @media screen and (min-width: 1000px) {
+      nav ul {
+        font-size: 1.4rem; }
+        nav ul li {
+          padding: 0 20px; } }
+    nav ul li {
+      padding: 0 10px;
+      text-align: center; }
+      nav ul li a {
+        display: block;
+        padding: 20px 5px;
+        text-decoration: none; }
+      nav ul li:last-of-type {
+        padding: 0; }
+        nav ul li:last-of-type a {
+          padding: 20px 30px;
+          background: #967800; }
 
 header {
   text-align: center;
@@ -467,7 +472,7 @@ header {
     padding-bottom: 10px; }
   #CONTACT img.btn {
     max-width: 232px; }
-  #CONTACT strong {
+  #CONTACT p strong {
     color: #D3C485; }
 
 footer {

@@ -2,5 +2,5 @@
 /* CSS Document */
 
 @import url("normalize.css");
-@import url("style_pc.css?version=5");
-@import url("style_sp.css?version=5") screen and (max-width:767px);
+@import url("style_pc.css?version=7");
+@import url("style_sp.css?version=7") screen and (max-width:767px);
