@@ -67,44 +67,78 @@ nav {
         padding: 0; }
         nav ul li:last-of-type a {
           padding: 20px 30px;
-          background: #967800; }
+          background: linear-gradient(312deg, #24a6b5 17%, #295982 98%); }
 
 header {
   text-align: center;
   letter-spacing: 2px;
-  height: 90vh;
   background: url("../img/top.jpg") no-repeat;
   background-size: cover;
-  padding-top: 15vh; }
+  padding: 18vh 0 10vh; }
   header .title {
     background: rgba(0, 0, 0, 0.65);
     padding: 20px;
     text-shadow: 0px 0px 15px black; }
     header .title h1 {
       font-weight: normal;
-      line-height: 270%;
-      font-size: 1.6rem;
-      padding-bottom: 20px; }
+      font-size: 4rem;
+      padding: 10px 0 20px; }
       header .title h1 strong {
-        color: #D3C485;
-        font-size: 2.0rem; }
-      header .title h1 span {
-        font-size: 4.0rem; }
+        color: #D3C485; }
+    header .title p {
+      font-size: 2.4rem;
+      line-height: 150%; }
+      header .title p .t1 {
+        font-size: 80%; }
+      header .title p .t2 {
+        font-size: 90%;
+        text-decoration: underline; }
+    header .title ul {
+      list-style: none;
+      max-width: 820px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between; }
+      header .title ul li {
+        flex-basis: 31%;
+        background: rgba(150, 120, 0, 0.82);
+        padding: 4px;
+        font-size: 1.8rem;
+        display: flex; }
+        header .title ul li div {
+          padding: 5px 0 8px;
+          flex-basis: 100%;
+          border: 1px solid #fff;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center; }
+          header .title ul li div .txt {
+            flex-basis: 100%;
+            display: block;
+            order: 1; }
+          header .title ul li div img {
+            width: auto;
+            height: 45px;
+            order: 2; }
+        header .title ul li .t1 {
+          font-size: 90%; }
+        header .title ul li .t2 {
+          letter-spacing: 1px; }
   header .logo {
     text-align: center; }
     header .logo img {
-      max-width: 100px; }
+      max-width: 50px; }
   header .btn {
+    border-radius: 10px;
     box-shadow: 0px 0px 15px -5px #777777;
     text-decoration: none;
     display: block;
     text-align: center;
     max-width: 500px;
     margin: 20px auto;
-    padding: 10px;
+    padding-top: 10px;
     background: rgba(255, 251, 251, 0.85);
-    color: #967800;
-    border: #967800 solid 1px;
+    color: #295982;
     font-size: 1.6rem;
     text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.99); }
     header .btn:hover {
@@ -115,13 +149,16 @@ header {
       header .btn strong.syokai {
         font-size: 2.5rem; }
     header .btn span {
-      display: inline-block;
-      background: #967800;
-      padding: 0 15px;
-      border-radius: 50px;
+      border-radius: 0px 0px 10px 10px;
+      display: block;
+      background: linear-gradient(312deg, #24a6b5 17%, #295982 98%);
+      padding: 5px;
       color: #fff;
       margin-top: 10px;
       text-shadow: 0px 0px 5px rgba(255, 255, 255, 0); }
+      header .btn span strong {
+        font-size: 2.0rem;
+        text-decoration: none; }
 
 .box0 {
   text-align: center; }
