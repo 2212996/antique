@@ -13,3 +13,21 @@ jQuery(function(){
     return false;
    });
 });
+
+
+//navi
+$(function() {
+  $('.btn-trigger').on("click", function(){
+    $(this).toggleClass('open');
+	  
+    $('ul').toggleClass('open');
+  });
+
+});
+// メニューをクリックされたら、非表示にする
+$(function() {
+  $('nav ul li a').on("click", function(){
+     $('.btn-trigger').removeClass('open');
+     $('ul').removeClass('open');
+  });
+});
