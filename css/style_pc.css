@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .sp {
   display: none !important; }
 
@@ -42,31 +43,45 @@ p {
   display: flex;
   flex-wrap: wrap; }
 
+sup {
+  vertical-align: super;
+  font-size: 80%; }
+
+.txt2 {
+  display: inline-block;
+  list-style: none;
+  text-indent: -1em;
+  padding-left: 1em;
+  line-height: 150%; }
+
 nav {
   z-index: 99;
   position: fixed;
+  top: 0;
   width: 100%;
   background: #000; }
+  nav .btn-trigger {
+    display: none; }
   nav ul {
-    font-size: 1.5vw;
+    font-size: 1vw;
     display: flex;
     justify-content: flex-end; }
     @media screen and (min-width: 1000px) {
       nav ul {
-        font-size: 1.4rem; }
-        nav ul li {
-          padding: 0 20px; } }
+        font-size: 1.4rem;
+        padding: 0; } }
     nav ul li {
-      padding: 0 10px;
+      padding: 0 5px;
       text-align: center; }
       nav ul li a {
         display: block;
-        padding: 20px 5px;
+        padding: 20px 0px;
         text-decoration: none; }
       nav ul li:last-of-type {
+        margin-left: 10px;
         padding: 0; }
         nav ul li:last-of-type a {
-          padding: 20px 30px;
+          padding: 20px 20px;
           background: linear-gradient(312deg, #24a6b5 17%, #295982 98%); }
 
 header {
@@ -79,18 +94,19 @@ header {
     background: rgba(0, 0, 0, 0.65);
     padding: 20px;
     text-shadow: 0px 0px 15px black; }
-    header .title h1 {
+    header .title p {
       font-weight: normal;
       font-size: 4rem;
       padding: 10px 0 20px; }
-      header .title h1 strong {
+      header .title p strong {
         color: #D3C485; }
-    header .title p {
+    header .title h1 {
+      font-weight: normal;
       font-size: 2.4rem;
       line-height: 150%; }
-      header .title p .t1 {
+      header .title h1 .t1 {
         font-size: 80%; }
-      header .title p .t2 {
+      header .title h1 .t2 {
         font-size: 90%;
         text-decoration: underline; }
     header .title ul {
@@ -139,15 +155,22 @@ header {
     padding-top: 10px;
     background: rgba(255, 251, 251, 0.85);
     color: #295982;
-    font-size: 1.6rem;
-    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.99); }
+    font-size: 1.6rem; }
     header .btn:hover {
       opacity: 1; }
     header .btn strong {
-      font-size: 2.2rem;
-      text-decoration: underline; }
+      font-size: 2.2rem; }
       header .btn strong.syokai {
-        font-size: 2.5rem; }
+        font-size: 2.5rem;
+        text-decoration: underline;
+        text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.99); }
+      header .btn strong.cmp {
+        background: #db0048;
+        border-radius: 100px;
+        color: #fff;
+        padding: 2px 15px;
+        margin: 3px 10px;
+        display: block; }
     header .btn span {
       border-radius: 0px 0px 10px 10px;
       display: block;
@@ -183,8 +206,6 @@ header {
   background: #0E2748; }
   .OPEN h2 {
     margin-bottom: 10px; }
-    .OPEN h2 span {
-      font-size: 2.5rem; }
   .OPEN .syokai {
     border: 4px double #967800;
     padding: 10px 10px 0;
@@ -198,14 +219,18 @@ header {
     margin: 0 auto 20px;
     font-size: 2.0rem; }
     .OPEN table th, .OPEN table td {
-      border: 2px solid #0E2748;
-      padding: 5px 5px 5px; }
+      border: 2px solid #0E2748; }
     .OPEN table th {
+      padding: 5px 5px 5px;
       background: #967800;
       padding-bottom: 5px; }
     .OPEN table td {
-      color: #D3C485;
+      padding: 5px 10px 5px;
+      font-size: 1.6rem;
       border-bottom: 2px solid #244B7F; }
+      .OPEN table td strong {
+        font-size: 2.8rem;
+        color: #D3C485; }
   .OPEN ul {
     text-align: left; }
   .OPEN .txt1 {
@@ -214,11 +239,12 @@ header {
     .OPEN .txt1 li {
       margin-left: 2em;
       color: #D3C485; }
-  .OPEN .txt2 {
-    display: inline-block;
-    list-style: none;
-    text-indent: -1em;
-    padding-left: 1em; }
+  .OPEN .cmp_detel h2 {
+    font-size: 2.7rem;
+    color: #fff; }
+    .OPEN .cmp_detel h2 span {
+      background: linear-gradient(transparent 60%, #751348 60%);
+      padding: 0 0.5em; }
 
 #CONCEPT {
   margin: 60px auto;
@@ -362,6 +388,17 @@ header {
       color: #fff;
       font-weight: normal;
       font-size: 1.8rem; }
+  #PRICE .opne_btn {
+    text-align: center;
+    padding-bottom: 40px;
+    line-height: 150%; }
+    #PRICE .opne_btn a {
+      display: inline-block;
+      background-color: rgba(37, 174, 186, 0.5);
+      border: 2px solid #25aeba;
+      border-radius: 500px;
+      padding: 10px 20px;
+      text-decoration: none; }
   #PRICE .all {
     margin: 0 auto;
     max-width: 500px;
@@ -505,12 +542,171 @@ header {
   margin-top: 150px;
   padding: 0 20px; }
   #CONTACT img.qr {
-    max-width: 200px;
+    max-width: 150px;
     padding-bottom: 10px; }
   #CONTACT img.btn {
     max-width: 232px; }
   #CONTACT p strong {
     color: #D3C485; }
+
+.comment {
+  margin: 10px 0;
+  padding: 10px 40px;
+  background: #161616;
+  text-align: center; }
+  .comment p {
+    font-size: 13px; }
+  .comment h3 {
+    text-align: center; }
+  .comment strong {
+    color: #D3C485;
+    font-weight: normal; }
+
+#MONITOR {
+  padding: 80px 10px;
+  background: url("../img/monitor_bg.png") no-repeat;
+  background-size: cover; }
+  #MONITOR h3 {
+    color: #d3c485;
+    font-size: 2.4rem;
+    text-decoration: underline;
+    font-weight: normal;
+    padding-bottom: 10px; }
+  #MONITOR section.mr {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    padding: 20px;
+    margin: 0 auto 20px;
+    text-align: left;
+    background: rgba(63, 63, 63, 0.8);
+    justify-content: space-between;
+    align-items: flex-start; }
+    #MONITOR section.mr img {
+      max-width: 453px;
+      width: 44%;
+      height: auto; }
+    #MONITOR section.mr div {
+      width: 54%;
+      padding-left: 1%;
+      max-width: 520px; }
+      #MONITOR section.mr div table {
+        margin-bottom: 10px; }
+        #MONITOR section.mr div table th {
+          font-weight: normal; }
+        #MONITOR section.mr div table td {
+          color: #d3c485;
+          padding-left: 10px; }
+      #MONITOR section.mr div .txt {
+        background: #131313;
+        padding: 10px; }
+        #MONITOR section.mr div .txt li {
+          margin-left: 1.5em; }
+  #MONITOR .hoka {
+    color: #d3c485;
+    font-size: 1.8rem;
+    text-shadow: 0px 0px 11px black; }
+    #MONITOR .hoka strong {
+      font-size: 2.3rem;
+      font-weight: normal; }
+    #MONITOR .hoka ul {
+      max-width: 400px;
+      text-align: left;
+      margin: 0 auto;
+      background: #09121f;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: #d3c485 solid 1px; }
+      #MONITOR .hoka ul li {
+        margin-left: 2em;
+        width: 14em;
+        margin: 0 auto; }
+    #MONITOR .hoka a {
+      text-shadow: none;
+      display: block;
+      margin: 0 auto;
+      max-width: 675px;
+      padding: 10px;
+      background: linear-gradient(312deg, #24a6b5 17%, #295982 98%);
+      border-radius: 200px;
+      text-decoration: none;
+      line-height: 180%; }
+      #MONITOR .hoka a strong {
+        font-size: 3.0rem;
+        letter-spacing: 2px; }
+        #MONITOR .hoka a strong span {
+          font-size: 2.4rem; }
+
+#HIKAKU {
+  padding: 0 15px; }
+  #HIKAKU h2 {
+    display: flex;
+    align-items: center;
+    width: 15em;
+    margin: 50px auto;
+    font-size: 3.0rem;
+    font-weight: normal; }
+    #HIKAKU h2:before, #HIKAKU h2:after {
+      content: "";
+      flex-grow: 1;
+      height: 1px;
+      /* 線の太さ */
+      background: #fff;
+      /* 線の色 */
+      margin: 0 1em;
+      /* 文字と線の余白 */ }
+  #HIKAKU div {
+    max-width: 600px;
+    margin: 0 auto; }
+    #HIKAKU div table {
+      width: 100%;
+      margin: 30px 0 10px; }
+      #HIKAKU div table th, #HIKAKU div table td {
+        border: #967800 solid 1px;
+        padding: 5px;
+        text-align: center;
+        vertical-align: middle; }
+      #HIKAKU div table th {
+        background: #967800;
+        border-bottom: #000 solid 1px;
+        font-weight: normal; }
+      #HIKAKU div table tr.top th {
+        background: none;
+        border: none;
+        border-bottom: #967800 solid 1px;
+        line-height: 120%;
+        font-size: 1.8rem; }
+        #HIKAKU div table tr.top th span {
+          font-size: 80%; }
+        #HIKAKU div table tr.top th:nth-of-type(1), #HIKAKU div table tr.top th:nth-of-type(3) {
+          color: #d3c485; }
+      #HIKAKU div table tr td:nth-of-type(1) {
+        border-right: none; }
+      #HIKAKU div table tr td:nth-of-type(2) {
+        border-left: none;
+        color: #d3c485;
+        font-size: 1.8rem; }
+      #HIKAKU div table.option th, #HIKAKU div table.option td {
+        border: #04a6ac solid 1px; }
+      #HIKAKU div table.option th {
+        background: #04a6ac;
+        border-bottom: #000 solid 1px; }
+      #HIKAKU div table.option tr.top th {
+        border-bottom: #04a6ac solid 1px; }
+        #HIKAKU div table.option tr.top th:nth-of-type(1) {
+          color: #04a6ac; }
+      #HIKAKU div table.after th, #HIKAKU div table.after td {
+        border: #818181 solid 1px; }
+      #HIKAKU div table.after th {
+        background: #818181;
+        border-bottom: #000 solid 1px; }
+      #HIKAKU div table.after tr.top th {
+        border-bottom: #818181 solid 1px; }
+        #HIKAKU div table.after tr.top th:nth-of-type(1) {
+          color: #818181; }
+    #HIKAKU div .txt2 a {
+      background: #876d2c;
+      padding: 0px 5px 5px 5px; }
 
 footer {
   margin-top: 150px;
