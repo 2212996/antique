@@ -95,6 +95,8 @@ header {
     header .title p {
       font-size: 6vw;
       padding: 5px 0 10px; }
+    header .title p.t2 {
+      font-size: 5vw; }
     header .title h1 {
       font-size: 4.5vw; }
     header .title ul {
@@ -111,7 +113,7 @@ header {
             height: 30px; }
   header .logo img {
     max-width: none;
-    width: 15%; }
+    width: 10%; }
   header .btn {
     line-height: 150%;
     max-width: none;

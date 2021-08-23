@@ -71,7 +71,7 @@ nav {
         font-size: 1.4rem;
         padding: 0; } }
     nav ul li {
-      padding: 0 5px;
+      padding: 0 10px;
       text-align: center; }
       nav ul li a {
         display: block;
@@ -100,15 +100,19 @@ header {
       padding: 10px 0 20px; }
       header .title p strong {
         color: #D3C485; }
+    header .title p.t2 {
+      padding: 5px 0 10px;
+      line-height: 150%;
+      font-size: 2.0rem; }
+      header .title p.t2 strong {
+        color: #D3C485;
+        font-weight: normal; }
     header .title h1 {
       font-weight: normal;
       font-size: 2.4rem;
       line-height: 150%; }
       header .title h1 .t1 {
         font-size: 80%; }
-      header .title h1 .t2 {
-        font-size: 90%;
-        text-decoration: underline; }
     header .title ul {
       list-style: none;
       max-width: 820px;
