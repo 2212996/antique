@@ -26,7 +26,7 @@ $(function() {
 });
 // メニューをクリックされたら、非表示にする
 $(function() {
-  $('nav ul li a').on("click", function(){
+  $('nav ul li a,.contact_btn').on("click", function(){
      $('.btn-trigger').removeClass('open');
      $('ul').removeClass('open');
   });
