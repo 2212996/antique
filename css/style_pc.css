@@ -551,7 +551,18 @@ header {
   #CONTACT img.btn {
     max-width: 232px; }
   #CONTACT p strong {
+    color: #D3C485;
+    font-size: 2.5rem; }
+  #CONTACT a {
     color: #D3C485; }
+  #CONTACT h3 {
+    background: rgba(183, 151, 84, 0.2);
+    border: #D3C485 solid 1px;
+    color: #D3C485;
+    max-width: 15em;
+    margin: 0 auto 10px; }
+    #CONTACT h3:nth-of-type(2) {
+      margin-top: 10px; }
 
 .comment {
   margin: 10px 0;
