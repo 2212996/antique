@@ -121,7 +121,7 @@ header {
     font-size: 3vw; }
     header .btn strong {
       font-size: 4vw; }
-    header .btn span strong {
+    header .btn span.tebura strong {
       font-size: 4vw; }
   header .bg {
     padding-top: 2vh;
@@ -141,6 +141,8 @@ header {
   margin: 30px 10px 10px 10px;
   padding: 10px;
   background: #0E2748; }
+  .OPEN h2 {
+    font-size: 4.8vw; }
   .OPEN table {
     width: 100%;
     margin: 0 auto 20px;
@@ -165,6 +167,11 @@ header {
 
 #CONCEPT {
   padding-top: 34%; }
+  #CONCEPT p {
+    line-height: 150%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 3.6vw; }
 
 #TRAINER {
   margin-top: 15%;
@@ -183,7 +190,8 @@ header {
           object-position: 0% 20%; }
       #TRAINER section .box .txt {
         padding-top: 20px;
-        padding-left: 0%; }
+        padding-left: 0%;
+        text-align: center; }
 
 #ABOUT {
   margin-top: 50px;
@@ -246,6 +254,10 @@ header {
 #PRICE {
   margin-top: 50px;
   padding: 0 20px; }
+  #PRICE h3 {
+    font-size: 4.4vw; }
+    #PRICE h3 span.small {
+      font-size: 4vw; }
   #PRICE section .box {
     display: block;
     text-align: center;
@@ -256,7 +268,8 @@ header {
     #PRICE section table th, #PRICE section table td {
       padding: 3px; }
   #PRICE section ul {
-    display: inline-block; }
+    display: inline-block;
+    padding-bottom: 10px; }
   #PRICE section .txt p {
     text-align: center; }
 
@@ -314,9 +327,6 @@ header {
 #CONTACT {
   margin-top: 50px; }
 
-.comment {
-  text-align: left; }
-
 #MONITOR {
   padding: 50px 10px 40px;
   background: url("../img/monitor_bg_sp.png") no-repeat #280E06;
@@ -329,6 +339,8 @@ header {
     text-decoration: none;
     text-align: center;
     border-bottom: 1px solid #d3c485; }
+  #MONITOR table {
+    margin: 0 auto; }
   #MONITOR section.mr {
     display: block; }
     #MONITOR section.mr img {
@@ -391,6 +403,13 @@ header {
         color: #818181; }
   #HIKAKU div .txt2 {
     font-size: 1.3rem; }
+
+#new_SUPPORT section dl dt:nth-last-of-type(1) {
+  float: none;
+  margin-bottom: 5px;
+  width: 100%; }
+#new_SUPPORT section dl dd:nth-last-of-type(1) {
+  padding-left: 0em; }
 
 footer {
   margin-top: 50px;
