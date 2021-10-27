@@ -160,9 +160,9 @@ header {
     text-decoration: none;
     display: block;
     text-align: center;
-    max-width: 500px;
+    max-width: 650px;
     margin: 20px auto;
-    padding-top: 10px;
+    padding-bottom: 10px;
     background: rgba(255, 251, 251, 0.85);
     color: #295982;
     font-size: 1.6rem; }
@@ -180,7 +180,7 @@ header {
         color: #fff;
         padding: 2px 15px;
         margin: 3px 10px;
-        display: block; }
+        display: inline-block; }
       header .btn strong.nokori {
         border: 1px solid #db0048;
         margin: 5px 0;
@@ -188,16 +188,23 @@ header {
         color: #db0048;
         padding: 5px;
         font-weight: bold; }
-    header .btn span.small {
+    header .btn ul {
       font-size: 1.3rem;
-      padding: 0 5px; }
+      text-align: left;
+      list-style: none; }
+      header .btn ul li {
+        line-height: 150%;
+        text-indent: -1em;
+        padding: 0 1.5em 5px 3rem; }
+    header .btn span.syousai {
+      text-decoration: underline; }
     header .btn span.tebura {
-      border-radius: 0px 0px 10px 10px;
+      border-radius: 10px 10px 0px 0px;
       display: block;
       background: linear-gradient(312deg, #24a6b5 17%, #295982 98%);
       padding: 5px;
       color: #fff;
-      margin-top: 10px;
+      margin-bottom: 10px;
       text-shadow: 0px 0px 5px rgba(255, 255, 255, 0); }
       header .btn span.tebura strong {
         font-size: 2.0rem;
@@ -437,6 +444,20 @@ header {
     #PRICE h3 strong {
       background: #DB0048;
       padding: 0px 5px 2px; }
+  #PRICE ul.nyuukai {
+    margin: 15px 30px 0;
+    border: 1px solid #D3C485;
+    color: #D3C485;
+    font-size: 1.4rem;
+    text-align: left;
+    list-style: none;
+    padding: 10px 10px 5px; }
+    #PRICE ul.nyuukai li {
+      line-height: 150%;
+      text-indent: -1em;
+      margin-left: 0em;
+      padding-bottom: 5px;
+      padding-left: 1em; }
   #PRICE .opne_btn {
     text-align: center;
     padding-bottom: 40px;

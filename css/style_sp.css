@@ -258,6 +258,8 @@ header {
     font-size: 4.4vw; }
     #PRICE h3 span.small {
       font-size: 4vw; }
+  #PRICE ul.nyuukai {
+    margin: 15px 15px 0; }
   #PRICE section .box {
     display: block;
     text-align: center;
