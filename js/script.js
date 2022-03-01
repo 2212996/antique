@@ -31,3 +31,12 @@ $(function() {
      $('ul').removeClass('open');
   });
 });
+
+
+
+$(function(){
+  $('#MONITOR h3').click(function(){
+    $(this).next('.box').slideToggle();
+    $(this).toggleClass("open");
+  });
+});
