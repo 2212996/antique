@@ -18,89 +18,7 @@ html { font-size: 58%; }
 	display: block;
 	list-style: none;
 }
-nav{
-	display: flex;
-	justify-content: space-between;
-	.contact_btn{
-		padding: 3px 0;
-		font-size: 1.9rem;
-		text-decoration: none;
-		text-align: center;
-		width: 70%;
-		margin-left: 10px;
-		align-self:center;
-		display: block;
-		z-index: 999;
-		background: linear-gradient(312deg, rgba(36,166,181,1) 17%, rgba(41,89,130,1) 98%);
-		&:hover{
-			opacity: 1.0;
-		}
-	}
-	.btn-trigger {
-		margin: 10px;
-		display: block;
-		z-index: 99;
-		margin: 10px;
-		border-radius: 10px;
-		position: relative;
-		width: 40px;
-		height: 30px;
-		cursor: pointer;
-		& span {
-			position: absolute;
-			left: 0px;
-			width: 100%;
-			height: 4px;
-			background-color: #fff;
-			border-radius: 4px;
-		}
-		&, & span {
-			display: inline-block;
-			transition: all .5s;
-			box-sizing: border-box;
-		}
-		& span:nth-of-type(1) {
-			top: 0px;
-		}
-		& span:nth-of-type(2) {
-			top: 13px;
-		}
-		& span:nth-of-type(3) {
-			bottom: 0px;
-		}
-		&.open span:nth-of-type(1) {
-		  -webkit-transform: translateY(22px) rotate(-45deg);
-		  transform: translateY(16px) rotate(-45deg);
-		}
-		&.open span:nth-of-type(2) {
-		  opacity: 0;
-		}
-		&.open span:nth-of-type(3) {
-		  -webkit-transform: translateY(-13px) rotate(45deg);
-		  transform: translateY(-10px) rotate(45deg);
-		}
-	}
-	ul{
-		&.open{
-			display: block;
-		}
-		display: none;
-		position: fixed;
-		width: 100%;
-		background: rgba(0,0,0,0.91);
-		padding-top: 50px;
-		font-size: 1.6rem;
-		li{
-			padding: 0px;
-			a{
-				padding:8px;
-			}
-			&:last-of-type{
-				display: none;
-			}
-		}
-	}
-}
+
 header{
 	height: auto;
 	background: none;
@@ -108,10 +26,13 @@ header{
 	.title{
 		background: rgba(0,0,0,1);
 		padding: 20px 10px 10px 10px;
-		
 		p{
 			font-size: 6vw;
 			padding: 5px 0 10px;
+		}
+		
+		p.t2{
+			font-size: 5vw;
 		}
 		h1{
 			font-size: 4.5vw;
@@ -137,7 +58,7 @@ header{
 	.logo{
 		img{
 			max-width: none;
-			width: 15%;
+			width: 10%;
 		}
 	}
 	.btn{
@@ -148,8 +69,7 @@ header{
 		strong{
 			font-size: 4vw;
 		}
-		span{
-			
+		span.tebura{
 			strong{
 				font-size: 4vw;
 			}
@@ -176,6 +96,10 @@ header{
 	margin :30px 10px 10px 10px;
 	padding: 10px;
 	background: #0E2748;
+	
+	h2{
+		font-size: 4.8vw;
+	}
 	table{
 		width: 100%;
 		margin: 0 auto 20px;
@@ -210,6 +134,12 @@ header{
 }
 #CONCEPT{
 	padding-top: 34%;
+	p{
+		line-height: 150%;
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size:3.6vw;
+	}
 }
 #TRAINER{
 	margin-top: 15%;
@@ -232,6 +162,7 @@ header{
 			.txt{
 				padding-top: 20px;
 				padding-left: 0%;
+				text-align: center;
 			}
 		}
 	}
@@ -320,8 +251,22 @@ header{
 #PRICE{
 	margin-top: 50px;
 	padding:0 20px;
-	section{
+	h3{
+		font-size: 4.4vw;
 		
+		span.small{
+			font-size: 4.0vw
+			
+		}
+		strong{
+			font-size: 3.5vw;
+			line-height: 150%;
+		}
+	}
+	ul.nyuukai{
+		margin: 15px 15px 0;
+	}
+	section{
 		.box{
 			display: block;
 			text-align: center;
@@ -336,6 +281,7 @@ header{
 		}
 		ul{
 			display:inline-block;
+			padding-bottom: 10px;
 		}
 		.txt{
 			p{
@@ -428,23 +374,23 @@ header{
 #CONTACT{
 	margin-top: 50px;
 }
-.comment{
-	text-align: left;
-}
 #MONITOR{
 	padding: 50px 10px 40px;
 	background: url("../img/monitor_bg_sp.png") no-repeat #280E06;
 	background-size: 100% auto;
 	background-position: top center;
 	h3{
-		font-size: 2.0rem;
-		padding: 0 0 5px;
-		margin-bottom: 10px;
-		text-decoration: none;
-		text-align: center;
-		border-bottom: 1px solid #d3c485;
+		font-size: 3.6vw;
+		margin: 15px auto 0;
+		.toggle_btn {
+			right: 10px;
+		}
 	}
-	section.mr{
+		
+	table{
+		margin: 0 auto;
+	}
+	div.mr{
 		display: block;
 		img{
 			max-width: 400px;
@@ -453,7 +399,7 @@ header{
 			width: 100%;
 			padding-bottom: 10px;
 		}
-		div{
+		div.detail{
 			width: 100%;
 			padding-left: 0%;
 			max-width: none;
@@ -536,6 +482,20 @@ header{
 		}
 		.txt2{
 			font-size: 1.3rem;
+		}
+	}
+}
+#new_SUPPORT{
+	section{
+		dl{
+			dt:nth-last-of-type(1){
+				float: none;
+				margin-bottom: 5px;
+				width: 100%;
+			}
+			dd:nth-last-of-type(1){
+				padding-left: 0em;
+			}
 		}
 	}
 }
