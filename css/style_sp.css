@@ -293,6 +293,12 @@ header {
     font-size: 1.6rem; }
     #MONITOR .hoka strong {
       font-size: 1.8rem; }
+    #MONITOR .hoka ul {
+      text-align: center; }
+      #MONITOR .hoka ul li {
+        margin-left: 0em;
+        width: 100%;
+        list-style: none; }
     #MONITOR .hoka a {
       font-size: 4vw; }
       #MONITOR .hoka a strong {
