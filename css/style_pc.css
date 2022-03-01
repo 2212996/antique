@@ -72,10 +72,6 @@ nav {
     font-size: 1vw;
     display: flex;
     justify-content: flex-end; }
-    @media screen and (min-width: 1000px) {
-      nav ul {
-        font-size: 1.4rem;
-        padding: 0; } }
     nav ul li {
       padding: 0 10px;
       text-align: center; }
@@ -89,6 +85,77 @@ nav {
         nav ul li:last-of-type a {
           padding: 20px 20px;
           background: linear-gradient(312deg, #24a6b5 17%, #295982 98%); }
+  nav .contact_btn {
+    display: none; }
+  @media screen and (max-width: 1143px) {
+    nav {
+      display: flex;
+      justify-content: space-between; }
+      nav .contact_btn {
+        padding: 3px 0;
+        font-size: 1.9rem;
+        text-decoration: none;
+        text-align: center;
+        width: 70%;
+        margin-left: 10px;
+        align-self: center;
+        display: block;
+        z-index: 999;
+        background: linear-gradient(312deg, #24a6b5 17%, #295982 98%); }
+        nav .contact_btn:hover {
+          opacity: 1.0; }
+      nav .btn-trigger {
+        margin: 10px;
+        display: block;
+        z-index: 99;
+        margin: 10px;
+        border-radius: 10px;
+        position: relative;
+        width: 40px;
+        height: 30px;
+        cursor: pointer; }
+        nav .btn-trigger span {
+          position: absolute;
+          left: 0px;
+          width: 100%;
+          height: 4px;
+          background-color: #fff;
+          border-radius: 4px; }
+        nav .btn-trigger, nav .btn-trigger span {
+          display: inline-block;
+          transition: all .5s;
+          box-sizing: border-box; }
+        nav .btn-trigger span:nth-of-type(1) {
+          top: 0px; }
+        nav .btn-trigger span:nth-of-type(2) {
+          top: 13px; }
+        nav .btn-trigger span:nth-of-type(3) {
+          bottom: 0px; }
+        nav .btn-trigger.open span:nth-of-type(1) {
+          -webkit-transform: translateY(22px) rotate(-45deg);
+          transform: translateY(16px) rotate(-45deg); }
+        nav .btn-trigger.open span:nth-of-type(2) {
+          opacity: 0; }
+        nav .btn-trigger.open span:nth-of-type(3) {
+          -webkit-transform: translateY(-13px) rotate(45deg);
+          transform: translateY(-10px) rotate(45deg); }
+      nav ul {
+        display: none;
+        position: fixed;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.91);
+        padding-top: 50px;
+        padding-bottom: 15px;
+        font-size: 1.6rem; }
+        nav ul.open {
+          display: block; }
+        nav ul li {
+          padding: 5px; }
+          nav ul li a {
+            display: inline-block;
+            padding: 8px; }
+          nav ul li:last-of-type {
+            display: none; } }
 
 header {
   text-align: center;
@@ -652,42 +719,102 @@ header {
   background: url("../img/monitor_bg.png") no-repeat;
   background-size: cover; }
   #MONITOR h3 {
-    color: #d3c485;
+    text-align: left;
+    max-width: 1020px;
+    margin: 30px auto 0;
     font-size: 2.4rem;
-    text-decoration: underline;
     font-weight: normal;
-    padding-bottom: 10px; }
-  #MONITOR section.mr {
+    padding: 10px 10px;
+    background: #D3C485;
+    color: #000;
+    cursor: pointer;
+    position: relative; }
+    #MONITOR h3 span.com {
+      display: block;
+      font-size: 1.4rem;
+      color: #86000d;
+      padding-right: 30px;
+      line-height: 100%; }
+    #MONITOR h3 strong {
+      background: #14547e;
+      color: #fff;
+      padding: 0 3px;
+      font-weight: normal;
+      font-size: 80%; }
+    #MONITOR h3.f strong {
+      background: #d32b55; }
+    #MONITOR h3.open .toggle_btn:before {
+      content: normal; }
+    #MONITOR h3 .toggle_btn {
+      position: absolute;
+      top: 50%;
+      right: 20px;
+      transform: translateY(-50%);
+      background: #000;
+      display: block;
+      width: 24px;
+      height: 24px;
+      text-indent: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      border-radius: 50%; }
+    #MONITOR h3 .toggle_btn:before, #MONITOR h3 .toggle_btn:after {
+      display: block;
+      content: '';
+      background-color: #fff;
+      position: absolute;
+      width: 10px;
+      height: 2px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+    #MONITOR h3 .toggle_btn:before {
+      width: 2px;
+      height: 10px; }
+  #MONITOR div.box {
+    margin: 0 auto 0;
+    max-width: 1040px;
+    padding: 0;
+    display: none; }
+  #MONITOR div.mr {
+    width: calc(100% - 40px);
     display: flex;
     flex-wrap: wrap;
-    max-width: 1000px;
     padding: 20px;
-    margin: 0 auto 20px;
     text-align: left;
     background: rgba(63, 63, 63, 0.8);
     justify-content: space-between;
     align-items: flex-start; }
-    #MONITOR section.mr img {
+    #MONITOR div.mr img {
       max-width: 440px;
-      width: 44%;
+      width: 34%;
       height: auto; }
-    #MONITOR section.mr div {
-      width: 54%;
+    #MONITOR div.mr div.detail {
+      width: 64%;
       padding-left: 1%;
-      max-width: 520px; }
-      #MONITOR section.mr div table {
+      max-width: 635px; }
+      #MONITOR div.mr div.detail table {
         margin-bottom: 10px; }
-        #MONITOR section.mr div table th {
+        #MONITOR div.mr div.detail table th {
           font-weight: normal; }
-        #MONITOR section.mr div table td {
+        #MONITOR div.mr div.detail table td {
           color: #d3c485;
           padding-left: 10px; }
-      #MONITOR section.mr div .txt {
+      #MONITOR div.mr div.detail .txt {
         background: #131313;
         padding: 10px; }
-        #MONITOR section.mr div .txt li {
-          margin-left: 1.5em; }
+        #MONITOR div.mr div.detail .txt h4 {
+          border-bottom: #D3C485 2px solid;
+          color: #D3C485;
+          padding: 0 5px 2px;
+          margin-bottom: 5px;
+          font-weight: normal; }
+        #MONITOR div.mr div.detail .txt p.top {
+          background: rgba(255, 255, 255, 0.21);
+          padding: 5px;
+          margin-bottom: 10px; }
   #MONITOR .hoka {
+    padding-top: 50px;
     color: #d3c485;
     font-size: 1.8rem;
     text-shadow: 0px 0px 11px black; }

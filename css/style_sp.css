@@ -18,73 +18,6 @@ html {
   display: block;
   list-style: none; }
 
-nav {
-  display: flex;
-  justify-content: space-between; }
-  nav .contact_btn {
-    padding: 3px 0;
-    font-size: 1.9rem;
-    text-decoration: none;
-    text-align: center;
-    width: 70%;
-    margin-left: 10px;
-    align-self: center;
-    display: block;
-    z-index: 999;
-    background: linear-gradient(312deg, #24a6b5 17%, #295982 98%); }
-    nav .contact_btn:hover {
-      opacity: 1.0; }
-  nav .btn-trigger {
-    margin: 10px;
-    display: block;
-    z-index: 99;
-    margin: 10px;
-    border-radius: 10px;
-    position: relative;
-    width: 40px;
-    height: 30px;
-    cursor: pointer; }
-    nav .btn-trigger span {
-      position: absolute;
-      left: 0px;
-      width: 100%;
-      height: 4px;
-      background-color: #fff;
-      border-radius: 4px; }
-    nav .btn-trigger, nav .btn-trigger span {
-      display: inline-block;
-      transition: all .5s;
-      box-sizing: border-box; }
-    nav .btn-trigger span:nth-of-type(1) {
-      top: 0px; }
-    nav .btn-trigger span:nth-of-type(2) {
-      top: 13px; }
-    nav .btn-trigger span:nth-of-type(3) {
-      bottom: 0px; }
-    nav .btn-trigger.open span:nth-of-type(1) {
-      -webkit-transform: translateY(22px) rotate(-45deg);
-      transform: translateY(16px) rotate(-45deg); }
-    nav .btn-trigger.open span:nth-of-type(2) {
-      opacity: 0; }
-    nav .btn-trigger.open span:nth-of-type(3) {
-      -webkit-transform: translateY(-13px) rotate(45deg);
-      transform: translateY(-10px) rotate(45deg); }
-  nav ul {
-    display: none;
-    position: fixed;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.91);
-    padding-top: 50px;
-    font-size: 1.6rem; }
-    nav ul.open {
-      display: block; }
-    nav ul li {
-      padding: 0px; }
-      nav ul li a {
-        padding: 8px; }
-      nav ul li:last-of-type {
-        display: none; }
-
 header {
   height: auto;
   background: none;
@@ -258,6 +191,9 @@ header {
     font-size: 4.4vw; }
     #PRICE h3 span.small {
       font-size: 4vw; }
+    #PRICE h3 strong {
+      font-size: 3.5vw;
+      line-height: 150%; }
   #PRICE ul.nyuukai {
     margin: 15px 15px 0; }
   #PRICE section .box {
@@ -335,23 +271,21 @@ header {
   background-size: 100% auto;
   background-position: top center; }
   #MONITOR h3 {
-    font-size: 2.0rem;
-    padding: 0 0 5px;
-    margin-bottom: 10px;
-    text-decoration: none;
-    text-align: center;
-    border-bottom: 1px solid #d3c485; }
+    font-size: 3.6vw;
+    margin: 15px auto 0; }
+    #MONITOR h3 .toggle_btn {
+      right: 10px; }
   #MONITOR table {
     margin: 0 auto; }
-  #MONITOR section.mr {
+  #MONITOR div.mr {
     display: block; }
-    #MONITOR section.mr img {
+    #MONITOR div.mr img {
       max-width: 400px;
       margin: 0 auto;
       display: block;
       width: 100%;
       padding-bottom: 10px; }
-    #MONITOR section.mr div {
+    #MONITOR div.mr div.detail {
       width: 100%;
       padding-left: 0%;
       max-width: none; }
