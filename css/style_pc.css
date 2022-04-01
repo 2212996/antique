@@ -333,6 +333,11 @@ header {
       padding: 5px 5px 5px;
       background: #967800;
       padding-bottom: 5px; }
+      .OPEN table th strong {
+        font-weight: normal;
+        font-size: 1.6rem;
+        background: #594702;
+        padding: 0 5px; }
     .OPEN table td {
       padding: 5px 10px 5px;
       font-size: 1.6rem;

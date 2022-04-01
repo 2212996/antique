@@ -68,6 +68,9 @@ header{
 		font-size: 3vw;
 		strong{
 			font-size: 4vw;
+			&.syokai{
+				font-size: 1.9rem;
+			}
 		}
 		span.tebura{
 			strong{
@@ -409,6 +412,14 @@ header{
 		font-size: 1.6rem;
 		strong{
 			font-size: 1.8rem;
+		}
+		ul{
+			text-align: center;
+			li{
+				margin-left: 0em;
+				width: 100%;
+				list-style: none;
+			}
 		}
 		a{
 		font-size: 4vw;
