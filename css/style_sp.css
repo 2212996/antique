@@ -19,51 +19,24 @@ html {
   list-style: none; }
 
 header {
-  height: auto;
-  background: none;
-  padding: 12% 0 0; }
+  background-size: auto 100%;
+  background-position: center 40px;
+  background-attachment: scroll; }
+  @media screen and (min-width: 650px) {
+    header {
+      background-size: cover; } }
   header .title {
-    background: black;
-    padding: 20px 10px 10px 10px; }
-    header .title p {
-      font-size: 6vw;
-      padding: 5px 0 10px; }
-    header .title p.t2 {
-      font-size: 5vw; }
+    padding: 25vh 0 20vh; }
     header .title h1 {
-      font-size: 4.5vw; }
-    header .title ul {
-      display: block;
-      margin: 0 10px; }
-      header .title ul li {
-        margin-bottom: 10px;
-        font-size: 4vw; }
-        header .title ul li div {
-          padding: 5px 0; }
-          header .title ul li div br {
-            display: none; }
-          header .title ul li div img {
-            height: 30px; }
+      letter-spacing: 2px;
+      font-size: 3.5vw; }
+      header .title h1 strong {
+        font-size: 2.5rem;
+        line-height: 150%;
+        letter-spacing: 5px;
+        padding-top: 20px; }
   header .logo img {
-    max-width: none;
-    width: 10%; }
-  header .btn {
-    line-height: 150%;
-    max-width: none;
-    margin: 10px;
-    font-size: 3vw; }
-    header .btn strong {
-      font-size: 4vw; }
-      header .btn strong.syokai {
-        font-size: 1.9rem; }
-    header .btn span.tebura strong {
-      font-size: 4vw; }
-  header .bg {
-    padding-top: 2vh;
-    padding-bottom: 30vh;
-    background: url("../img/top.jpg") no-repeat;
-    background-size: cover;
-    background-position: center 54%; }
+    max-width: 80px; }
 
 .box0 {
   text-align: center; }
@@ -72,33 +45,67 @@ header {
     .box0 h2 strong {
       font-size: 15px; }
 
-.OPEN {
-  margin: 30px 10px 10px 10px;
-  padding: 10px;
-  background: #0E2748; }
-  .OPEN h2 {
-    font-size: 4.8vw; }
-  .OPEN table {
-    width: 100%;
-    margin: 0 auto 20px;
-    font-size: 2.0rem; }
-    .OPEN table th, .OPEN table td {
-      border: 2px solid #0E2748;
-      padding: 5px 5px 5px; }
-    .OPEN table th {
-      background: #967800;
-      padding-bottom: 5px; }
-    .OPEN table td {
-      color: #D3C485;
-      border-bottom: 2px solid #244B7F; }
-  .OPEN ul {
-    text-align: left; }
-  .OPEN .txt1 {
+.top_txt {
+  padding: 20px; }
+  .top_txt .trial {
+    width: calc(100% - 20px);
+    margin: 10px; }
+    .top_txt .trial .trial_1 {
+      padding: 2px;
+      font-size: 1.5rem; }
+    .top_txt .trial .trial_2 {
+      font-size: 1.9rem;
+      padding: 10px 0; }
+    .top_txt .trial .trial_4 {
+      letter-spacing: 1px;
+      font-size: 1.4rem;
+      padding: 10px 0 10px; }
+  .top_txt .top_point p.t2 {
+    font-size: 5vw; }
+  .top_txt .top_point ul {
     display: block;
-    margin: 0 auto 20px; }
-    .OPEN .txt1 li {
-      margin-left: 2em;
-      color: #D3C485; }
+    margin: 0 10px; }
+    .top_txt .top_point ul li {
+      margin-bottom: 10px;
+      font-size: 4vw; }
+      .top_txt .top_point ul li div {
+        padding: 5px 0; }
+        .top_txt .top_point ul li div br {
+          display: none; }
+        .top_txt .top_point ul li div img {
+          height: 30px; }
+
+.top_img1 {
+  margin-top: 10px;
+  padding: 20px 0;
+  background-attachment: scroll; }
+
+.OPEN {
+  margin: 0px;
+  padding: 30px 20px; }
+  .OPEN h2 {
+    font-size: 2.2rem; }
+    .OPEN h2 img {
+      width: 40px;
+      padding-right: 0; }
+  .OPEN .flex {
+    display: block;
+    padding: 0 0 20px; }
+    .OPEN .flex .img {
+      flex-basis: auto; }
+    .OPEN .flex .trial_in {
+      flex-basis: auto;
+      padding: 0px; }
+  .OPEN .syokai .img img {
+    width: 65%;
+    padding: 0 15% 0 15%; }
+  .OPEN .cmp_detel {
+    padding: 20px; }
+    .OPEN .cmp_detel h2 strong {
+      display: block;
+      margin-top: 5px; }
+    .OPEN .cmp_detel .price_txt {
+      padding: 10px 0px 10px 10px; }
 
 #CONCEPT {
   padding-top: 34%; }
@@ -153,8 +160,7 @@ header {
     padding-top: 30px; }
     #SUPPORTS .box section {
       display: block;
-      padding: 0 30px;
-      background: rgba(9, 18, 31, 0.8); }
+      padding: 0 30px; }
       #SUPPORTS .box section h3 {
         writing-mode: horizontal-tb;
         text-indent: -1em;
@@ -167,24 +173,14 @@ header {
         text-align: left;
         padding: 10px 0;
         margin-bottom: 10px;
-        border-bottom: 1px solid #967800; }
+        border-bottom: 1px solid #D3C485;
+        color: #D3C485; }
       #SUPPORTS .box section img {
-        display: none; }
+        object-fit: contain;
+        height: auto;
+        width: 70%; }
     #SUPPORTS .box .bg {
-      background: url("../img/weight.jpg") no-repeat;
-      background-size: 70%;
-      background-position: center center;
       margin-bottom: 10%; }
-      #SUPPORTS .box .bg:nth-of-type(2) {
-        background-image: url("../img/kigu.jpg"); }
-      #SUPPORTS .box .bg:nth-of-type(3) {
-        background-image: url("../img/sasasa.jpg"); }
-      #SUPPORTS .box .bg:nth-of-type(4) {
-        background-image: url("../img/SPfour.jpg"); }
-        #SUPPORTS .box .bg:nth-of-type(4) section {
-          background: rgba(9, 18, 31, 0.3); }
-      #SUPPORTS .box .bg:nth-of-type(5) {
-        background-image: url("../img/book.jpg"); }
 
 #PRICE {
   margin-top: 50px;
@@ -302,12 +298,12 @@ header {
         width: 100%;
         list-style: none; }
     #MONITOR .hoka a {
-      font-size: 4vw; }
+      font-size: 3vw; }
       #MONITOR .hoka a strong {
-        font-size: 5vw;
+        font-size: 4vw;
         letter-spacing: 1px; }
         #MONITOR .hoka a strong span {
-          font-size: 4vw; }
+          font-size: 3vw; }
 
 #HIKAKU {
   padding-bottom: 40px; }

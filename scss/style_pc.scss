@@ -182,41 +182,92 @@ nav{
 		}
 	}
 }
-
 header{
 	text-align: center;
 	letter-spacing: 2px;
-	background: url("../img/top.jpg") no-repeat;
+	background: url("../img/top01.png") no-repeat;
 	background-size: cover;
-	padding: 18vh 0 10vh;
+	background-position: center;
 	.title{
-		background: rgba(0,0,0,0.65);
-		padding: 20px;
-		text-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
-		
-		p{
+		padding: 30vh 0 30vh;
+		h1{
 			font-weight: normal;
-			font-size: 4rem;
-			padding: 10px 0 20px;
+			letter-spacing: 4px;
+			font-size: 2.0rem;
+			padding-bottom: 20px;
+			line-height: 150%;
+			text-shadow: 0px 0px 14px rgba(33, 12, 12, 1),0px 0px 6px rgba(33, 12, 12, 1),0px 0px 6px rgba(33, 12, 12, 1),0px 0px 6px rgba(33, 12, 12, 1);
 			strong{
-				color: $ytxt;
+				display: block;
+				font-weight: normal;
+				font-size: 4.5rem;
+				line-height: 150%;
+				letter-spacing: 10px;
+				padding-top: 20px;
 			}
 		}
+	}
+	p{
+		background: #CD0044;
+		display: inline-block;
+		padding: 5px 20px;
+		line-height: 100%;
+		font-size: 2.0rem;
+	}
+	.logo{
+		text-align: center;
+		img{
+			max-width: 100px;
+		}
+	}
+}
+.top_txt{
+	.trial{
+		border-radius:10px 10px 5px 5px ;
+		background: #242424;
+		display: inline-block;
+		text-align: center;
+		max-width: 800px;
+		width: 80%;
+		margin: 50px 10px 10px;
+		text-decoration: none;
+		letter-spacing: 3px;
+		span{
+			display: block;
+		}
+		.trial_1{
+			padding: 10px;
+			font-size: 2.5rem;
+			border-radius:5px 5px 0px 0px ;
+			background: linear-gradient(90deg, rgba(139,107,30,1) 0%, rgba(170,155,43,1) 100%);
+		}
+		.trial_2{
+			color: $ytxt;
+			font-weight: bold;
+			font-size: 3.0rem;
+			padding: 20px 0;
+		}
+		.trial_3{
+			color: $ytxt;
+			border: $ytxt solid 1px;
+			display: inline-block;
+			padding: 2px 20px;
+			font-size: 1.8rem;
+		}
+		.trial_4{
+			text-decoration: underline;
+			padding:10px 0 15px;
+		}
+	}
+	.top_point{
 		p.t2{
-			padding: 5px 0 10px;
+			padding:20px 0;
 			line-height: 150%;
-			font-size: 2.0rem;
+			font-size: 2.5rem;
+			letter-spacing: 4px;
 			strong{
 				color: $ytxt;
 				font-weight: normal;
-			}
-		}
-		h1{
-			font-weight: normal;
-			font-size: 2.4rem;
-			line-height: 150%;
-			.t1{
-				font-size: 80%;
 			}
 		}
 		ul{
@@ -226,6 +277,7 @@ header{
 			display: flex;
 			justify-content:space-between;
 			li{
+				letter-spacing: 2px;
 				flex-basis: 31%;
 				background: rgba(150,120,0,0.82);
 				padding: 4px;
@@ -258,81 +310,6 @@ header{
 			}
 		}
 	}
-	.logo{
-		text-align: center;
-		img{
-			max-width: 50px;
-		}
-	}
-	.btn{
-		border-radius: 10px;
-		box-shadow: 0px 0px 15px -5px #777777;
-		text-decoration: none;
-		display: block;
-		text-align: center;
-		max-width: 650px;
-		margin: 20px auto;
-		padding-bottom: 10px;
-		background: rgba(255,251,251,0.85);
-		color: #295982;
-		font-size: 1.6rem;
-		
-		&:hover{
-			opacity: 1;
-		}
-		strong{
-			font-size: 2.2rem;
-			
-			&.syokai{
-				font-size: 2.5rem;
-				text-decoration: underline;
-				text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.99);
-			}
-			&.cmp{
-				background: #db0048;
-				border-radius: 100px;
-				color: #fff;
-				padding:2px 15px;
-				margin: 3px 10px;
-				display: inline-block;
-			}
-			&.nokori{
-				border: 1px solid #db0048;
-				margin: 5px 0;
-				display: inline-block;
-				color: #db0048;
-				padding: 5px;
-				font-weight: bold;
-			}
-		}
-		ul{
-			font-size: 1.3rem;
-			text-align: left;
-			list-style: none;
-			
-			li{
-				line-height: 150%;
-				text-indent: -1em;
-				padding: 0 1.5em 5px 3rem;
-			}
-		}
-		span.syousai{
-			text-decoration: underline;
-		}
-		span.tebura{
-			border-radius:10px 10px 0px 0px ;
-			display: block;
-			background: linear-gradient(312deg, rgba(36,166,181,1) 17%, rgba(41,89,130,1) 98%);
-			padding: 5px;
-			color: #fff;
-			margin-bottom: 10px;
-			text-shadow: 0px 0px 5px rgba(255, 255, 255, 0);
-			strong{
-				font-size: 2.0rem;
-				text-decoration: none;
-			}
-		}
-	}
 }
 
 .box0{
@@ -354,91 +331,84 @@ header{
 	}
 	
 }
+.top_img1{
+	margin-top: 60px;
+	background: url("../img/top02.png") no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 50vh;
+	&.top_img2{
+		background-image: url("../img/top.jpg")
+	}
+}
 .OPEN{
 	h2{
 		font-size: 2.5rem;
 		border-bottom: 1px solid $yellow;
-		margin-bottom: 10px;
-		padding-bottom: 5px;
+		margin-bottom:30px;
+		padding-bottom: 10px;
 		line-height: 130%;
-		span{
-			color: #fff;
-			font-size: 80%;
+		strong{
+			display: inline-block;
+			background: $ytxt;
+			color: #000;
+			padding: 5px;
+		}
+		img{
+			width: 40px;
+			padding-right: 15px;
+		}
+	}
+	.flex{
+		display: flex;
+		padding: 0 20px;
+		.img{
+			flex-basis: 49%;
+		}
+		.trial_in{
+			flex-basis: 51%;
+			padding: 20px;
 		}
 	}
 	.syokai{
 		border: 4px double $yellow;
-		padding: 10px 10px 0;
+		padding: 20px 20px 0;
 		margin-bottom: 30px;
 		background: #071526;
-		h2{
-		}
-		.nokori{
-			background: #1F4B7E;
-			padding: 5px;
-			margin-bottom: 5px;
-			font-size: 1.9rem;
-			font-weight: bold;
-			strong{color: #FF78A5}
-			small{
-				font-size: 1.4rem;
-				font-weight: normal;
+		.img{
+			img{
+				width: 75%;
+				padding:0 7% 0 10%;
 			}
 		}
 	}
-	max-width: 800px;
-	margin : 60px auto 30px;
-	padding: 30px;
-	background: #0E2748;
-	table{
-		width: 80%;
-		margin: 0 auto 20px;
-		font-size: 2.0rem;
-		th,td{
-			border: 2px solid #0E2748;
-			
-		}
-		th{
-			padding: 5px 5px 5px;
-			background:$yellow;
-			padding-bottom:5px;
+	.cmp_detel{
+		border: 4px double $yellow;
+		padding: 20px;
+		background: #0E2748;
+		.price_txt{
+			border: 2px solid $ytxt;
+			background: #020F20;
+			margin-bottom: 20px;
+			padding: 10px;
+			letter-spacing: 3px;
+			font-size: 1.7rem;
 			strong{
-				font-weight: normal;
-				font-size: 1.6rem;
-				background:#594702;
-				padding: 0 5px;
-			}
-		}
-		td{
-			padding: 5px 10px 5px;
-			font-size: 1.6rem;
-			border-bottom: 2px solid #244B7F;
-			strong{
-				font-size: 2.8rem;
 				color: $ytxt;
+				font-size: 150%;
 			}
 		}
 	}
+	max-width: 850px;
+	margin : 60px auto 30px;
 	ul{
 		text-align: left;
 		
 	}
 	.txt1{
-		display: inline-block;
-		margin: 0 auto 20px;
 		li{
 			margin-left: 2em;
 			color: $ytxt;
-		}
-	}
-	.cmp_detel{
-		h2{
-			font-size:2.7rem;
-			color: #fff;
-			span{
-				background:linear-gradient(transparent 60%, #751348 60%);
-				padding: 0 0.5em;
-			}
 		}
 	}
 }
@@ -1074,10 +1044,10 @@ header{
 			line-height: 180%;
 			
 			strong{
-				font-size: 3.0rem;
+				font-size: 2.0rem;
 				letter-spacing: 2px;
 				span{
-					font-size: 2.4rem;
+					font-size: 1.8rem;
 				}
 			}
 		}
