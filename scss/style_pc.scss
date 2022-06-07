@@ -213,6 +213,15 @@ header{
 		padding: 5px 20px;
 		line-height: 100%;
 		font-size: 2.0rem;
+		line-height: 150%;
+		strong{
+			background:linear-gradient(transparent 70%, #86002C 0%);
+			padding: 0 10px;
+		}
+		&.typ2{
+			margin-top: 10px;
+			background: #1F6E9C;
+		}
 	}
 	.logo{
 		text-align: center;
@@ -253,6 +262,10 @@ header{
 			display: inline-block;
 			padding: 2px 20px;
 			font-size: 1.8rem;
+			strong{
+				background:linear-gradient(transparent 70%, #424242 0%);
+				padding: 0 10px;
+			}
 		}
 		.trial_4{
 			text-decoration: underline;
@@ -353,6 +366,9 @@ header{
 			background: $ytxt;
 			color: #000;
 			padding: 5px;
+			&.typ2{
+				background: #929292;
+			}
 		}
 		img{
 			width: 40px;
@@ -612,8 +628,18 @@ header{
 			span{font-size: 1.4rem;}
 		}
 		strong{
-			background: #DB0048;
-			padding: 0px 5px 2px;
+			background: #CD0044;
+			display: inline-block;
+			margin-top: 5px;
+			padding: 2px 20px 5px;
+			line-height: 100%;
+			font-size: 1.8rem;
+			line-height: 150%;
+			font-weight: normal;
+			strong{
+				background:linear-gradient(transparent 70%, #86002C 0%);
+				padding: 0 10px;
+			}
 		}
 	}
 	ul.nyuukai{
@@ -668,7 +694,7 @@ header{
 	section{
 		background: #09121F;
 		max-width: 900px;
-		margin: 0 auto 30px;
+		margin: 0 auto 60px;
 		.box{
 			padding: 20px 30px;
 		}

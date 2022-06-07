@@ -184,7 +184,14 @@ header {
     display: inline-block;
     padding: 5px 20px;
     line-height: 100%;
-    font-size: 2.0rem; }
+    font-size: 2.0rem;
+    line-height: 150%; }
+    header p strong {
+      background: linear-gradient(transparent 70%, #86002C 0%);
+      padding: 0 10px; }
+    header p.typ2 {
+      margin-top: 10px;
+      background: #1F6E9C; }
   header .logo {
     text-align: center; }
     header .logo img {
@@ -218,6 +225,9 @@ header {
     display: inline-block;
     padding: 2px 20px;
     font-size: 1.8rem; }
+    .top_txt .trial .trial_3 strong {
+      background: linear-gradient(transparent 70%, #424242 0%);
+      padding: 0 10px; }
   .top_txt .trial .trial_4 {
     text-decoration: underline;
     padding: 10px 0 15px; }
@@ -301,6 +311,8 @@ header {
       background: #D3C485;
       color: #000;
       padding: 5px; }
+      .OPEN h2 strong.typ2 {
+        background: #929292; }
     .OPEN h2 img {
       width: 40px;
       padding-right: 15px; }
@@ -494,8 +506,17 @@ header {
       #PRICE h3 span span {
         font-size: 1.4rem; }
     #PRICE h3 strong {
-      background: #DB0048;
-      padding: 0px 5px 2px; }
+      background: #CD0044;
+      display: inline-block;
+      margin-top: 5px;
+      padding: 2px 20px 5px;
+      line-height: 100%;
+      font-size: 1.8rem;
+      line-height: 150%;
+      font-weight: normal; }
+      #PRICE h3 strong strong {
+        background: linear-gradient(transparent 70%, #86002C 0%);
+        padding: 0 10px; }
   #PRICE ul.nyuukai {
     margin: 15px 30px 0;
     border: 1px solid #D3C485;
@@ -540,7 +561,7 @@ header {
   #PRICE section {
     background: #09121F;
     max-width: 900px;
-    margin: 0 auto 30px; }
+    margin: 0 auto 60px; }
     #PRICE section .box {
       padding: 20px 30px; }
     #PRICE section ul {
