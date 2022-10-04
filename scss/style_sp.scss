@@ -39,6 +39,9 @@ header{
 			}
 		}
 	}
+    a.typ2{
+        font-size: 5.5vw;
+    }
 	.logo{
 		img{
 			max-width: 80px;
@@ -174,6 +177,7 @@ header{
 				padding-left: 0%;
 				text-align: center;
 			}
+            p{font-size: 13px;}
 		}
 	}
 }
