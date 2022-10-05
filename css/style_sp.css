@@ -115,7 +115,9 @@ header {
     line-height: 150%;
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 3.6vw; }
+    font-size: 3.3vw; }
+    #CONCEPT p strong {
+      font-size: 3.5vw; }
 
 #TRAINER {
   margin-top: 15%;
