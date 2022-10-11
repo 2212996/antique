@@ -39,4 +39,8 @@ $(function(){
     $(this).next('.box').slideToggle();
     $(this).toggleClass("open");
   });
+  $('#QA h3').click(function(){
+    $(this).next('div').slideToggle();
+    $(this).toggleClass("open");
+  });
 });
