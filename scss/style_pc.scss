@@ -305,7 +305,7 @@ header{
 				flex-basis: 31%;
 				background: rgba(150,120,0,0.82);
 				padding: 4px;
-				font-size: 1.8rem;
+				font-size: 1.7rem;
 				display: flex;
 				div{
 					padding: 5px 0 8px;
@@ -320,6 +320,7 @@ header{
 						order: 1;
 					}
 					img{
+                        padding: 5px 0 2px;
 						width: auto;
 						height: 45px;
 						order: 2;
@@ -627,6 +628,7 @@ header{
 
 #PRICE{
 	margin-top: 150px;
+    padding-bottom: 50px;
 	h3{
 		color: $ytxt;
 		background: #152944;
@@ -760,6 +762,63 @@ header{
 			}
 		}
 	}
+}
+#QA{
+    background: #3E3822;
+    padding: 80px 10px;
+    .box_in{
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: left;
+        h3{
+            margin-top: 20px;
+            margin-bottom: 5px;
+            display: flex;
+            justify-content: space-between;
+            background: #110E08;
+            padding: 10px;
+            cursor:pointer;
+            strong{
+                display: flex;
+            }
+            strong::before{
+                content:"Ｑ";
+                padding-right: 5px;
+                color: #AA8F23;
+            }
+            &::after{
+                font-family: 'Material Icons';
+                content: "\e5ce";
+                text-align: right;
+            }
+            &.open::after{
+                font-family: 'Material Icons';
+                content: "\e5cf";
+            }
+        }
+        div{
+            display: none;
+        }
+        p{
+            line-height: 150%;
+            color: $ytxt;
+            display: flex;
+            &::before{
+                content:"Ａ";
+                color: #fff;
+                padding:0 5px;
+            }
+        }
+    }
+    .qr{
+        img.qr{
+		max-width: 150px;
+		padding-bottom: 10px;
+        }
+        img.btn{
+            max-width: 232px;
+        }
+    }
 }
 #GALLERY{
 	margin-top: 150px;
