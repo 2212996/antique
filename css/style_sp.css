@@ -69,12 +69,13 @@ header {
     margin: 0 10px; }
     .top_txt .top_point ul li {
       margin-bottom: 10px;
-      font-size: 4vw; }
+      font-size: 3.5vw; }
       .top_txt .top_point ul li div {
         padding: 5px 0; }
         .top_txt .top_point ul li div br {
           display: none; }
         .top_txt .top_point ul li div img {
+          padding: 5px 0;
           height: 30px; }
 
 .top_img1 {

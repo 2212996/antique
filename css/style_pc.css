@@ -259,7 +259,7 @@ header {
     flex-basis: 31%;
     background: rgba(150, 120, 0, 0.82);
     padding: 4px;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     display: flex; }
     .top_txt .top_point ul li div {
       padding: 5px 0 8px;
@@ -273,6 +273,7 @@ header {
         display: block;
         order: 1; }
       .top_txt .top_point ul li div img {
+        padding: 5px 0 2px;
         width: auto;
         height: 45px;
         order: 2; }
